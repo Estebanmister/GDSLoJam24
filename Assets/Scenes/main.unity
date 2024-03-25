@@ -1644,6 +1644,7 @@ GameObject:
   - component: {fileID: 1381246236}
   - component: {fileID: 1381246235}
   - component: {fileID: 1381246238}
+  - component: {fileID: 1381246239}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1694,7 +1695,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1769,6 +1770,18 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!114 &1381246239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381246234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d356383663c3d74e8c0e89cc15ad648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1389909202
 GameObject:
   m_ObjectHideFlags: 0
@@ -1884,7 +1897,7 @@ MonoBehaviour:
   playerHeight: 1.1
   acceleration: 20
   max_speed: 10
-  jumping_initial_vel: 20
+  jumping_initial_vel: 17
   jumping_cooldown: 0.01
   melee_projectile_prefab: {fileID: 7795548309045101039, guid: 3be1167e83422a64599660f75f5b19fb, type: 3}
   parry_projectile_prefab: {fileID: 7795548309045101039, guid: a3266ac84700d604fb7f5f76d569f31b, type: 3}
@@ -1908,7 +1921,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 0.5
   m_AngularDrag: 0.05
   m_GravityScale: 2
   m_Material: {fileID: 6200000, guid: ecfe7c9391aa8db45b33299ad0f8e720, type: 2}
