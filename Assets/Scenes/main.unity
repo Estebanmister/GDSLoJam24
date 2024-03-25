@@ -1884,7 +1884,7 @@ MonoBehaviour:
   playerHeight: 1.1
   acceleration: 20
   max_speed: 10
-  jumping_initial_vel: 13
+  jumping_initial_vel: 20
   jumping_cooldown: 0.01
   melee_projectile_prefab: {fileID: 7795548309045101039, guid: 3be1167e83422a64599660f75f5b19fb, type: 3}
   parry_projectile_prefab: {fileID: 7795548309045101039, guid: a3266ac84700d604fb7f5f76d569f31b, type: 3}
