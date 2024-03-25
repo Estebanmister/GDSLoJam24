@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 4673479586986236460}
   - component: {fileID: -7930130784718636418}
   m_Layer: 8
-  m_Name: melee projectile
-  m_TagString: PlayerProjectile
+  m_Name: rangedenemyProjectile
+  m_TagString: EnemyProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,9 +84,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   velocity: {x: 0, y: 0, z: 0}
-  speed: 20
-  lifetime_distance: 1.5
-  friendly: 1
+  speed: 2
+  lifetime_distance: 2
+  friendly: 0
 --- !u!212 &-7930130784718636418
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -129,7 +129,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

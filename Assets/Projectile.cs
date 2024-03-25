@@ -10,12 +10,22 @@ public class Projectile : MonoBehaviour
     float elapsed_distance = 0;
     public bool friendly = true;
     void OnTriggerEnter2D(Collider2D other){
-        if(other.tag != "Player"){
-            if(other.tag == "Enemy"){
-                other.GetComponent<Enemy>().health -= damage;
+        if(!friendly){
+            if(other.tag != "Enemy"){
+                if(other.tag == "Player"){
+                    other.GetComponent<PlayerControl>().health -= damage;
+                }
+                Destroy(gameObject);
             }
-            Destroy(gameObject);
+        } else {
+            if(other.tag != "Player"){
+                if(other.tag == "Enemy"){
+                    other.GetComponent<Enemy>().health -= damage;
+                }
+                Destroy(gameObject);
+            }
         }
+        
     }
     void Update(){
         if(elapsed_distance> lifetime_distance){
