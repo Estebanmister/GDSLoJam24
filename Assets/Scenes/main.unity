@@ -1782,6 +1782,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d356383663c3d74e8c0e89cc15ad648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHeight: 3.05
 --- !u!1 &1389909202
 GameObject:
   m_ObjectHideFlags: 0
@@ -1898,7 +1899,6 @@ MonoBehaviour:
   acceleration: 20
   max_speed: 10
   jumping_initial_vel: 17
-  jumping_cooldown: 0.01
   melee_projectile_prefab: {fileID: 7795548309045101039, guid: 3be1167e83422a64599660f75f5b19fb, type: 3}
   parry_projectile_prefab: {fileID: 7795548309045101039, guid: a3266ac84700d604fb7f5f76d569f31b, type: 3}
   layer:
@@ -2196,7 +2196,7 @@ Animator:
   m_GameObject: {fileID: 1890800684}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 311c6adb77c14aa4a96ed54a2dfde5bd, type: 2}
+  m_Controller: {fileID: 9100000, guid: a5744f8366608794482449ecb705cb89, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2220,10 +2220,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8b1ae4e4e52b34ea557c1c11e076fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CategoryHash: 0.0000000011410082
-  m_labelHash: 1.4249642e-17
+  m_CategoryHash: 5.5761336e-21
+  m_labelHash: 0.29282826
   m_SpriteKey: 0
-  m_SpriteHash: 647083907
+  m_SpriteHash: 447147569
 --- !u!114 &1890800688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2279,7 +2279,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7518847591770146933, guid: 7c0aadcbce3141e4199c73429abff9a5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a11646bcf73eb6142b506acb918c97b9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

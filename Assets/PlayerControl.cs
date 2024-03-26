@@ -33,11 +33,11 @@ public class PlayerControl : MonoBehaviour
         playerInput = GetComponent<PlayerInput>();
         rb = GetComponent<Rigidbody2D>();
     }
-
     void CheckGrounding(){
         RaycastHit2D hit2D = Physics2D.Raycast(transform.position, Vector3.down, playerHeight, layer);
         
         isGrounded = hit2D.collider != null;
+        
     }
     public void SpecialAttack(InputAction.CallbackContext context){
 
@@ -59,6 +59,7 @@ public class PlayerControl : MonoBehaviour
     public void jump(InputAction.CallbackContext context){
         if(context.started){
             if(isGrounded){
+                animator.SetBool("jump", true);
                 rb.velocityY += jumping_initial_vel;
                 //jumping_cooldown = 0;
             }
@@ -89,6 +90,9 @@ public class PlayerControl : MonoBehaviour
         if(Mathf.Abs(rb.velocityX) < max_speed){
             // todo scale this with velocity
             rb.AddForce(Vector3.right * x_axis * acceleration);
+        }
+        if(Mathf.Abs(rb.velocityY) < 0.05f){
+            animator.SetBool("jump", false);
         }
         if(x_axis < 0){
             animator.SetBool("isRunning", true);
