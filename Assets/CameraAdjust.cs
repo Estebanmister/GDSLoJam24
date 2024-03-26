@@ -7,11 +7,12 @@ public class CameraAdjust : MonoBehaviour
     public float playerHeight = 1.1f;
     void Update()
     {
-        float size = Camera.main.orthographicSize;
-        Debug.Log(size);
         transform.localPosition = new Vector3(0,0,-10);
-        if(transform.position.y-size < 0){
-            transform.localPosition += new Vector3(0, (-transform.position.y)+size-playerHeight, 0);
+        float size = Camera.main.ViewportToWorldPoint(new Vector2(0,0)).y;
+        Debug.Log(size);
+        
+        if(size < 0){
+            transform.localPosition += new Vector3(0, -size-playerHeight, 0);
         }
     }
 }

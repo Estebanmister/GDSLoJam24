@@ -91,7 +91,7 @@ public class PlayerControl : MonoBehaviour
             // todo scale this with velocity
             rb.AddForce(Vector3.right * x_axis * acceleration);
         }
-        if(Mathf.Abs(rb.velocityY) < 0.05f){
+        if(Mathf.Abs(rb.velocityY) < 0.05f && isGrounded){
             animator.SetBool("jump", false);
         }
         if(x_axis < 0){

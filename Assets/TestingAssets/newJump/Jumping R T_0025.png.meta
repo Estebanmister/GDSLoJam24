@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: b6789345fba736344a4ff946a69529ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3688655183327560171
+    second: Jumping R T_0025_0
+  - first:
+      213: 935578277285475588
+    second: Jumping R T_0025_1
+  - first:
+      213: -3154515071284307341
+    second: Jumping R T_0025_2
+  - first:
+      213: 3300745837246364757
+    second: Jumping R T_0025_3
+  - first:
+      213: 3839994626269537094
+    second: Jumping R T_0025_4
+  - first:
+      213: -5190748976956656353
+    second: Jumping R T_0025_5
+  - first:
+      213: 3971508068711277993
+    second: Jumping R T_0025_6
+  - first:
+      213: 6254131256934748333
+    second: Jumping R T_0025_7
+  - first:
+      213: -3131281666415288501
+    second: Jumping R T_0025_8
+  - first:
+      213: -6943916722257347374
+    second: Jumping R T_0025_9
+  - first:
+      213: 5397119404000274591
+    second: Jumping R T_0025_10
+  - first:
+      213: -1359953185351713025
+    second: Jumping R T_0025_11
+  - first:
+      213: 1529426228125884374
+    second: Jumping R T_0025_12
+  - first:
+      213: -5152465589641924737
+    second: Jumping R T_0025_13
+  - first:
+      213: 3083074650094830304
+    second: Jumping R T_0025_14
+  - first:
+      213: 2302375204522622396
+    second: Jumping R T_0025_15
+  - first:
+      213: 7031174817080034839
+    second: Jumping R T_0025_16
+  - first:
+      213: 3341479723681438308
+    second: Jumping R T_0025_17
+  - first:
+      213: 8884328685688781510
+    second: Jumping R T_0025_18
+  - first:
+      213: 1181158916473456938
+    second: Jumping R T_0025_19
+  - first:
+      213: -5890853938252299393
+    second: Jumping R T_0025_20
+  - first:
+      213: -4975144627773316265
+    second: Jumping R T_0025_21
+  - first:
+      213: -6191322935453950019
+    second: Jumping R T_0025_22
+  - first:
+      213: 2400715809747692383
+    second: Jumping R T_0025_23
+  - first:
+      213: 2257987850413496511
+    second: Jumping R T_0025_24
+  - first:
+      213: -401330491389695620
+    second: Jumping R T_0025_25
+  - first:
+      213: -2389867421080885349
+    second: Jumping R T_0025_26
+  - first:
+      213: -526624054931720333
+    second: Jumping R T_0025_27
+  - first:
+      213: -4171201355651062629
+    second: Jumping R T_0025_28
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jumping R T_0025_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1023
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1842d885cb03330800000000000000
+      internalID: 3688655183327560171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1019
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4053c2d7c77dbfc00800000000000000
+      internalID: 935578277285475588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1018
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a9b798149e834d0800000000000000
+      internalID: -3154515071284307341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_3
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1020
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c3be2d9da9ecd20800000000000000
+      internalID: 3300745837246364757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_4
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1013
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643643674c66a4530800000000000000
+      internalID: 3839994626269537094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_5
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 238
+        width: 751
+        height: 842
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f15b646ae41c6f7b0800000000000000
+      internalID: -5190748976956656353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 967
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5222aeb81ad1730800000000000000
+      internalID: 3971508068711277993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 968
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0534c0e332bc650800000000000000
+      internalID: 6254131256934748333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 939
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f9f952ae37b84d0800000000000000
+      internalID: -3131281666415288501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 957
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dcb4f3188042af90800000000000000
+      internalID: -6943916722257347374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 958
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98edc5b08b66ea40800000000000000
+      internalID: 5397119404000274591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_11
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 953
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe33f388c9702de0800000000000000
+      internalID: -1359953185351713025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 895
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfdb9d1d0d993510800000000000000
+      internalID: 1529426228125884374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 891
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f28fb58d3ce78b0800000000000000
+      internalID: -5152465589641924737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 868
+        width: 23
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e20ae63f0849ca20800000000000000
+      internalID: 3083074650094830304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 887
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdfc3dcc0ea3ff10800000000000000
+      internalID: 2302375204522622396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 888
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7164abd4e30c39160800000000000000
+      internalID: 7031174817080034839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_17
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 891
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ad332da125f5e20800000000000000
+      internalID: 3341479723681438308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 886
+        width: 18
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cafa425ed97b4b70800000000000000
+      internalID: 8884328685688781510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 881
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a298fa7c6c1546010800000000000000
+      internalID: 1181158916473456938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 810
+        width: 9
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73c2c2ed8b7f3ea0800000000000000
+      internalID: -5890853938252299393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 813
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 753e06b025cb4fab0800000000000000
+      internalID: -4975144627773316265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_22
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 793
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfd98ed790041aa0800000000000000
+      internalID: -6191322935453950019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_23
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 812
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5beca63f4e015120800000000000000
+      internalID: 2400715809747692383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 819
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb85b039cfbf55f10800000000000000
+      internalID: 2257987850413496511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_25
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 700
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c792f2f5b003e6af0800000000000000
+      internalID: -401330491389695620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 711
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97e13a1e3c75ded0800000000000000
+      internalID: -2389867421080885349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_27
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 730
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3777e93563e01b8f0800000000000000
+      internalID: -526624054931720333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping R T_0025_28
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 716
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b946acd877aec16c0800000000000000
+      internalID: -4171201355651062629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Jumping R T_0025_0: 3688655183327560171
+      Jumping R T_0025_1: 935578277285475588
+      Jumping R T_0025_10: 5397119404000274591
+      Jumping R T_0025_11: -1359953185351713025
+      Jumping R T_0025_12: 1529426228125884374
+      Jumping R T_0025_13: -5152465589641924737
+      Jumping R T_0025_14: 3083074650094830304
+      Jumping R T_0025_15: 2302375204522622396
+      Jumping R T_0025_16: 7031174817080034839
+      Jumping R T_0025_17: 3341479723681438308
+      Jumping R T_0025_18: 8884328685688781510
+      Jumping R T_0025_19: 1181158916473456938
+      Jumping R T_0025_2: -3154515071284307341
+      Jumping R T_0025_20: -5890853938252299393
+      Jumping R T_0025_21: -4975144627773316265
+      Jumping R T_0025_22: -6191322935453950019
+      Jumping R T_0025_23: 2400715809747692383
+      Jumping R T_0025_24: 2257987850413496511
+      Jumping R T_0025_25: -401330491389695620
+      Jumping R T_0025_26: -2389867421080885349
+      Jumping R T_0025_27: -526624054931720333
+      Jumping R T_0025_28: -4171201355651062629
+      Jumping R T_0025_3: 3300745837246364757
+      Jumping R T_0025_4: 3839994626269537094
+      Jumping R T_0025_5: -5190748976956656353
+      Jumping R T_0025_6: 3971508068711277993
+      Jumping R T_0025_7: 6254131256934748333
+      Jumping R T_0025_8: -3131281666415288501
+      Jumping R T_0025_9: -6943916722257347374
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

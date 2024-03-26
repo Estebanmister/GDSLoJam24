@@ -351,6 +351,94 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: 21300000, guid: 6bcfca5e7e6ff0a41bbf6157814d6ba1, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 5
+  - m_Name: jumpStart
+    m_Hash: 841821458
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Jumping R T_0011
+      m_Hash: 852251450
+      m_Sprite: {fileID: 21300000, guid: d78aab32a08550a43a1c7dd1982d0b4c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: d78aab32a08550a43a1c7dd1982d0b4c, type: 3}
+    - m_Name: Jumping R T_0013
+      m_Hash: 482488854
+      m_Sprite: {fileID: 21300000, guid: 3dc8876b14cac6c458aff9010432fc1c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 3dc8876b14cac6c458aff9010432fc1c, type: 3}
+    - m_Name: Jumping R T_0015
+      m_Hash: 899782435
+      m_Sprite: {fileID: 21300000, guid: 4132ecb2b2fb5554bb75d8462e64866c, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 4132ecb2b2fb5554bb75d8462e64866c, type: 3}
+    - m_Name: Jumping R T_0017
+      m_Hash: 464516623
+      m_Sprite: {fileID: 21300000, guid: ec64e3a9060f5a34680d7cb1b2b6fe22, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: ec64e3a9060f5a34680d7cb1b2b6fe22, type: 3}
+    - m_Name: Jumping R T_0019
+      m_Hash: 1008196360
+      m_Sprite: {fileID: 21300000, guid: b2c2d828dc82be149aaf2cc9a2e5e9e9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b2c2d828dc82be149aaf2cc9a2e5e9e9, type: 3}
+    - m_Name: Jumping R T_0021
+      m_Hash: 434176249
+      m_Sprite: {fileID: 21300000, guid: 2a609f69a023d6b43bfc0158126296b8, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 2a609f69a023d6b43bfc0158126296b8, type: 3}
+    - m_Name: Jumping R T_0023
+      m_Hash: 938435029
+      m_Sprite: {fileID: 21300000, guid: 243e4f89d63a16b48b2500998f2653a7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 243e4f89d63a16b48b2500998f2653a7, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 7
+  - m_Name: jumpLoop
+    m_Hash: 935857425
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Jumping R T_0025
+      m_Hash: 512541920
+      m_Sprite: {fileID: 21300000, guid: b6789345fba736344a4ff946a69529ef, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b6789345fba736344a4ff946a69529ef, type: 3}
+    - m_Name: Jumping R T_0027
+      m_Hash: 813868492
+      m_Sprite: {fileID: 21300000, guid: deebded55676e9641a61e57779ca7d1b, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: deebded55676e9641a61e57779ca7d1b, type: 3}
+    - m_Name: Jumping R T_0029
+      m_Hash: 389712075
+      m_Sprite: {fileID: 21300000, guid: 8c5abcea3835db247aa21a8bdbfef1e9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 8c5abcea3835db247aa21a8bdbfef1e9, type: 3}
+    - m_Name: Jumping R T_0031
+      m_Hash: 16396728
+      m_Sprite: {fileID: 21300000, guid: 7b8a8e549b475e9418d301530025893a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 7b8a8e549b475e9418d301530025893a, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: jumpEnd
+    m_Hash: 606662532
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: Jumping R T_0035
+      m_Hash: 127399329
+      m_Sprite: {fileID: 21300000, guid: b69164722a6b981488fc5566b138be87, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: b69164722a6b981488fc5566b138be87, type: 3}
+    - m_Name: Jumping R T_0037
+      m_Hash: 697930893
+      m_Sprite: {fileID: 21300000, guid: dafb4f03f2b61454cadacdfe8f9ee254, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: dafb4f03f2b61454cadacdfe8f9ee254, type: 3}
+    - m_Name: Jumping R T_0039
+      m_Hash: 237091210
+      m_Sprite: {fileID: 21300000, guid: e4859bf52afa6ab4da05b79da7fe7871, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: e4859bf52afa6ab4da05b79da7fe7871, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
   m_PrimaryLibraryGUID: 
-  m_ModificationHash: 638470072392371270
+  m_ModificationHash: 638470636725445922
   m_Version: 1
