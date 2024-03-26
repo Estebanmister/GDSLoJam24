@@ -19,6 +19,7 @@ public class PlayerControl : MonoBehaviour
     public float acceleration = 20;
     public float max_speed = 10;
     public float jumping_initial_vel = 1;
+    public float jumping_variation = 5;
     public GameObject melee_projectile_prefab;
     public GameObject parry_projectile_prefab;
     float last_axis_change = 1;
@@ -42,8 +43,11 @@ public class PlayerControl : MonoBehaviour
     public void SpecialAttack(InputAction.CallbackContext context){
 
     }
-    public void Intereact(InputAction.CallbackContext context){
-
+    void Interact(Collider2D col){
+        
+    }
+    public void heal(InputAction.CallbackContext context){
+        
     }
     float attackCooldownCounter = 0;
     public void Attack_Basic(InputAction.CallbackContext context){
@@ -58,9 +62,23 @@ public class PlayerControl : MonoBehaviour
     }
     public void jump(InputAction.CallbackContext context){
         if(context.started){
+            Collider2D[] cols = Physics2D.OverlapPointAll(
+                                Vector3.Scale(new Vector3(1,1,1), transform.position), 
+                                LayerMask.GetMask("Interactable"));
+            Collider2D toInteract = null;
+            foreach(Collider2D col in cols){
+                if(col != null){
+                    toInteract = col;
+                }
+            }
+            if(toInteract != null){
+                Interact(toInteract);
+                return;
+            }
             if(isGrounded){
-                animator.SetBool("jump", true);
-                rb.velocityY += jumping_initial_vel;
+                //animator.SetBool("jump", true);
+                jump_initiated = true;
+                //rb.velocityY += jumping_initial_vel/2;
                 //jumping_cooldown = 0;
             }
             if(isGrounded){
@@ -69,24 +87,31 @@ public class PlayerControl : MonoBehaviour
         }
     }
     float map(float val, float oldmin, float oldmax, float newmin, float newmax){
-        if(val > oldmax){
-            val = oldmax;
-        }
-        if(val < oldmin){
-            val = oldmin;
-        }
         return (val - oldmin) * (newmax - newmin) / (oldmax - oldmin) + newmin;
 
     }
     float parryCounter = 0;
+    float jumpStrength = 0;
+    bool jump_initiated = false;
     void FixedUpdate()
     {
         CheckGrounding();
         float x_axis = playerInput.actions["x_axis"].ReadValue<float>();
         float y_axis = playerInput.actions["y_axis"].ReadValue<float>();
         //animator.SetFloat("sword_pos", y_axis);
-        bool basic_attack = playerInput.actions["basic_attack"].IsPressed();
+        bool jumpPressed = playerInput.actions["jump"].IsPressed();
         bool parry = playerInput.actions["parry"].IsPressed();
+
+        if(jumpPressed && jump_initiated && jumpStrength <= 0.15f){
+            jumpStrength += Time.fixedDeltaTime;
+        } else if (jump_initiated){
+            jump_initiated = false;
+            animator.SetBool("jump", true);
+            rb.velocityY += map(jumpStrength,0,0.15f,jumping_initial_vel-jumping_variation, jumping_initial_vel);
+            jumpStrength = 0;
+        }
+
+
         if(Mathf.Abs(rb.velocityX) < max_speed){
             // todo scale this with velocity
             rb.AddForce(Vector3.right * x_axis * acceleration);

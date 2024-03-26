@@ -9,7 +9,6 @@ public class CameraAdjust : MonoBehaviour
     {
         transform.localPosition = new Vector3(0,0,-10);
         float size = Camera.main.ViewportToWorldPoint(new Vector2(0,0)).y;
-        Debug.Log(size);
         
         if(size < 0){
             transform.localPosition += new Vector3(0, -size-playerHeight, 0);

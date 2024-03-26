@@ -411,13 +411,8 @@ MonoBehaviour:
       m_Sprite: {fileID: 21300000, guid: 8c5abcea3835db247aa21a8bdbfef1e9, type: 3}
       m_FromMain: 0
       m_SpriteOverride: {fileID: 21300000, guid: 8c5abcea3835db247aa21a8bdbfef1e9, type: 3}
-    - m_Name: Jumping R T_0031
-      m_Hash: 16396728
-      m_Sprite: {fileID: 21300000, guid: 7b8a8e549b475e9418d301530025893a, type: 3}
-      m_FromMain: 0
-      m_SpriteOverride: {fileID: 21300000, guid: 7b8a8e549b475e9418d301530025893a, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 4
+    m_EntryOverrideCount: 3
   - m_Name: jumpEnd
     m_Hash: 606662532
     m_CategoryList: []
@@ -437,8 +432,18 @@ MonoBehaviour:
       m_Sprite: {fileID: 21300000, guid: e4859bf52afa6ab4da05b79da7fe7871, type: 3}
       m_FromMain: 0
       m_SpriteOverride: {fileID: 21300000, guid: e4859bf52afa6ab4da05b79da7fe7871, type: 3}
+    - m_Name: Jumping R T_0031
+      m_Hash: 16396728
+      m_Sprite: {fileID: 21300000, guid: 7b8a8e549b475e9418d301530025893a, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 7b8a8e549b475e9418d301530025893a, type: 3}
+    - m_Name: Jumping R T_0033
+      m_Hash: 787763348
+      m_Sprite: {fileID: 21300000, guid: be109e7e7e680354dafc3bb66a839f23, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: be109e7e7e680354dafc3bb66a839f23, type: 3}
     m_FromMain: 0
-    m_EntryOverrideCount: 3
+    m_EntryOverrideCount: 5
   m_PrimaryLibraryGUID: 
-  m_ModificationHash: 638470636725445922
+  m_ModificationHash: 638470652433997692
   m_Version: 1
