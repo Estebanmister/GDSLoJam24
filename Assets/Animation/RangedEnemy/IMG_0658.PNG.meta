@@ -1,0 +1,497 @@
+fileFormatVersion: 2
+guid: d0337b904a51fd34187cc759958d3b12
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3612386978234676608
+    second: IMG_0658_0
+  - first:
+      213: 778528989908513284
+    second: IMG_0658_1
+  - first:
+      213: -8118785987553711903
+    second: IMG_0658_2
+  - first:
+      213: -7288061754676748699
+    second: IMG_0658_3
+  - first:
+      213: 6039847521397128739
+    second: IMG_0658_4
+  - first:
+      213: -6601307635002182278
+    second: IMG_0658_5
+  - first:
+      213: 1260315509627780370
+    second: IMG_0658_6
+  - first:
+      213: 3292805106415354903
+    second: IMG_0658_7
+  - first:
+      213: 7043796211969848003
+    second: IMG_0658_8
+  - first:
+      213: -7866954557434263857
+    second: IMG_0658_9
+  - first:
+      213: -6831670201713177370
+    second: IMG_0658_10
+  - first:
+      213: 6306799127683103020
+    second: IMG_0658_11
+  - first:
+      213: -6219806607950621059
+    second: IMG_0658_12
+  - first:
+      213: 4595973889701397072
+    second: IMG_0658_13
+  - first:
+      213: 5982946718234817546
+    second: IMG_0658_14
+  - first:
+      213: -534704767979527657
+    second: IMG_0658_15
+  - first:
+      213: 1164003066957330749
+    second: IMG_0658_16
+  - first:
+      213: 2049803397658563497
+    second: IMG_0658_17
+  - first:
+      213: 5108795134644587514
+    second: IMG_0658_18
+  - first:
+      213: 4124201998902166851
+    second: IMG_0658_19
+  - first:
+      213: -9095091517226441502
+    second: IMG_0658_20
+  - first:
+      213: 2399990672180787163
+    second: IMG_0658_21
+  - first:
+      213: -1278673024194184913
+    second: IMG_0658_22
+  - first:
+      213: 8641868490187289426
+    second: IMG_0658_23
+  - first:
+      213: 5435145971819144670
+    second: IMG_0658_24
+  - first:
+      213: 7082623083114284940
+    second: IMG_0658_25
+  - first:
+      213: -4517329871494963621
+    second: IMG_0658_26
+  - first:
+      213: -1312118481722762937
+    second: IMG_0658_27
+  - first:
+      213: 7476730002817568914
+    second: IMG_0658_28
+  - first:
+      213: -1499098538995461518
+    second: IMG_0658_29
+  - first:
+      213: -2848066645731174732
+    second: IMG_0658_30
+  - first:
+      213: -8579701528819462055
+    second: IMG_0658_31
+  - first:
+      213: 1855859097555987523
+    second: IMG_0658_32
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shoot1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2703
+        width: 239
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75fe926ea17364a0800000000000000
+      internalID: -6601307635002182278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot2
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 2706
+        width: 293
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d7740574a8d7110800000000000000
+      internalID: 1260315509627780370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot3
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 2724
+        width: 322
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714ca7a5cc462bd20800000000000000
+      internalID: 3292805106415354903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot4
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 2712
+        width: 320
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c274bcc55790c160800000000000000
+      internalID: 7043796211969848003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot5
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 2712
+        width: 331
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecc344b5280131a0800000000000000
+      internalID: -6831670201713177370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shoot6
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 2717
+        width: 335
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76d97118decea9a0800000000000000
+      internalID: -6219806607950621059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk1
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1915
+        width: 204
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4ac04f37eb7c180800000000000000
+      internalID: -9095091517226441502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk2
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1917
+        width: 204
+        height: 435
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29f701c8ad314ee0800000000000000
+      internalID: -1278673024194184913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk3
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1925
+        width: 204
+        height: 431
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5eca8f6748d6b40800000000000000
+      internalID: 5435145971819144670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk4
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1918
+        width: 205
+        height: 445
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e184c6a683f41c0800000000000000
+      internalID: -4517329871494963621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1228
+        width: 228
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290527bf25ea2c760800000000000000
+      internalID: 7476730002817568914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1226
+        width: 216
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b61e84b972a978d0800000000000000
+      internalID: -2848066645731174732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle3
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1236
+        width: 215
+        height: 420
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c6007340651c910800000000000000
+      internalID: 1855859097555987523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: eb4325613f22fcd46b3d39af2757499b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      idle1: 7476730002817568914
+      idle2: -2848066645731174732
+      idle3: 1855859097555987523
+      shoot1: -6601307635002182278
+      shoot2: 1260315509627780370
+      shoot3: 3292805106415354903
+      shoot4: 7043796211969848003
+      shoot5: -6831670201713177370
+      shoot6: -6219806607950621059
+      walk1: -9095091517226441502
+      walk2: -1278673024194184913
+      walk3: 5435145971819144670
+      walk4: -4517329871494963621
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

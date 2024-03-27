@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Walk
+    m_Hash: 765711723
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: walk1
+      m_Hash: 407952310
+      m_Sprite: {fileID: -9095091517226441502, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -9095091517226441502, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+    - m_Name: walk2
+      m_Hash: 22645260
+      m_Sprite: {fileID: -1278673024194184913, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1278673024194184913, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+    - m_Name: walk3
+      m_Hash: 912177818
+      m_Sprite: {fileID: 5435145971819144670, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5435145971819144670, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+    - m_Name: walk4
+      m_Hash: 674901817
+      m_Sprite: {fileID: -4517329871494963621, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4517329871494963621, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: idle
+    m_Hash: 472167701
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: idle1
+      m_Hash: 786247657
+      m_Sprite: {fileID: 7476730002817568914, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7476730002817568914, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+    - m_Name: idle2
+      m_Hash: 936672851
+      m_Sprite: {fileID: -2848066645731174732, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -2848066645731174732, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+    - m_Name: idle3
+      m_Hash: 13848261
+      m_Sprite: {fileID: 1855859097555987523, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1855859097555987523, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 3
+  - m_Name: shoot
+    m_Hash: 809827518
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: shoot1
+      m_Hash: 796210624
+      m_Sprite: {fileID: -6601307635002182278, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6601307635002182278, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+    - m_Name: shoot2
+      m_Hash: 914121850
+      m_Sprite: {fileID: 1260315509627780370, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1260315509627780370, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+    - m_Name: shoot3
+      m_Hash: 24859884
+      m_Sprite: {fileID: 3292805106415354903, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3292805106415354903, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+    - m_Name: shoot4
+      m_Hash: 522174799
+      m_Sprite: {fileID: 7043796211969848003, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 7043796211969848003, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+    - m_Name: shoot5
+      m_Hash: 672723417
+      m_Sprite: {fileID: -6831670201713177370, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6831670201713177370, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+    - m_Name: shoot6
+      m_Hash: 823238755
+      m_Sprite: {fileID: -6219806607950621059, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6219806607950621059, guid: d0337b904a51fd34187cc759958d3b12, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 6
+  - m_Name: bow
+    m_Hash: 404116907
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: arrow
+      m_Hash: 406318654
+      m_Sprite: {fileID: -5500429403315041244, guid: 98fbdbeaaaadc17438385301317ea629, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -5500429403315041244, guid: 98fbdbeaaaadc17438385301317ea629, type: 3}
+    - m_Name: glowbow3
+      m_Hash: 205581496
+      m_Sprite: {fileID: -7973701652111903970, guid: 98fbdbeaaaadc17438385301317ea629, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7973701652111903970, guid: 98fbdbeaaaadc17438385301317ea629, type: 3}
+    - m_Name: glowbow2
+      m_Hash: 994565166
+      m_Sprite: {fileID: 2756397656518279226, guid: 98fbdbeaaaadc17438385301317ea629, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2756397656518279226, guid: 98fbdbeaaaadc17438385301317ea629, type: 3}
+    - m_Name: glowbow1
+      m_Hash: 575573396
+      m_Sprite: {fileID: -6495313806877397433, guid: 98fbdbeaaaadc17438385301317ea629, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -6495313806877397433, guid: 98fbdbeaaaadc17438385301317ea629, type: 3}
+    - m_Name: glowbow4
+      m_Hash: 304380187
+      m_Sprite: {fileID: -8830729815255747652, guid: 98fbdbeaaaadc17438385301317ea629, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8830729815255747652, guid: 98fbdbeaaaadc17438385301317ea629, type: 3}
+    - m_Name: nothing
+      m_Hash: 573148887
+      m_Sprite: {fileID: 1675005706, guid: 98fbdbeaaaadc17438385301317ea629, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1675005706, guid: 98fbdbeaaaadc17438385301317ea629, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 6
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638471558537569870
+  m_Version: 1
