@@ -76,6 +76,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "dash",
+                    "type": "Button",
+                    "id": "3d0ab121-a96e-4f66-9c8a-51615498f549",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -126,7 +135,7 @@
                 {
                     "name": "",
                     "id": "b2beb6d1-6a39-4d6f-81a8-31bb99adcc73",
-                    "path": "<Gamepad>/buttonWest",
+                    "path": "<Gamepad>/leftTrigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -164,6 +173,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "heal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a1a2752f-60d7-44e7-8c9e-cfec7e40e594",
+                    "path": "<Gamepad>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "dash",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

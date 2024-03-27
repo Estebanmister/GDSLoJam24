@@ -12,6 +12,9 @@ public class Projectile : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other){
         if(!friendly){
             if(other.tag != "Enemy"){
+                if(other.tag == "ParryZone"){
+                    other.GetComponent<ParryZone>().Parry();
+                }
                 if(other.tag == "Player"){
                     other.GetComponent<PlayerControl>().health -= damage;
                 }
