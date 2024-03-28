@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Angel-BossChibi_0: -8026133880485272288
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

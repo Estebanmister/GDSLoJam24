@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bad end axel normal expression_0: 7019979379263820431
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

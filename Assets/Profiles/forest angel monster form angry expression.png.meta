@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      forest angel monster form angry expression_0: 3018247720039519009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

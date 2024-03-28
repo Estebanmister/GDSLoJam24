@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DeadVillager-1_0: 1876050073207798255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

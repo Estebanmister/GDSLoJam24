@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bad end angel happy expression_0: -6964918055427569245
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

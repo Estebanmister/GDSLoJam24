@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      night-time dialogue box_0: 5938853414682836406
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

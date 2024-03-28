@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      night-time axel stern expression_0: 4919155102420475559
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

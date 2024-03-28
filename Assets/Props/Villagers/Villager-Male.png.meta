@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Villager-Male_0: 1407313909548184888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

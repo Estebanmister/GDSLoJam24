@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Villager-Granny(Chibi)_0: -1313609455477723372
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

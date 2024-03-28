@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      night-time axel happy expression_0: 6276122708632844772
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

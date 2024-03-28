@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bad end axel stern expression_0: 3302440034210379009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

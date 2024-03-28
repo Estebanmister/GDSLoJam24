@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bad end axel normal expression (with blood)_0: -2075649948220260151
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

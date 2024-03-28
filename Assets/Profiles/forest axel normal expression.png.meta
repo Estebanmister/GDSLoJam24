@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      forest axel normal expression_0: 4493235470678211202
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

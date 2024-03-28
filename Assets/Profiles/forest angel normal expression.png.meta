@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      forest angel normal expression_0: -7183921854272762369
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
