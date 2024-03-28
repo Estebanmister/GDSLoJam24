@@ -10,19 +10,26 @@ public class Projectile : MonoBehaviour
     float elapsed_distance = 0;
     public bool friendly = true;
     public ParticleSystem collisionParticles;
+    SpriteRenderer spriteRenderer;
+    void Start(){
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
     void OnTriggerEnter2D(Collider2D other){
         if(collisionParticles.isPlaying){
             return;
         }
         if(!friendly){
             if(other.tag != "Enemy"){
+                spriteRenderer.enabled = false;
                 if(other.tag == "ParryZone"){
                     other.GetComponent<ParryZone>().Parry();
                     Destroy(gameObject);
                 }
                 if(other.tag == "Player"){
                     collisionParticles.Play();
-                    other.GetComponent<PlayerControl>().health -= damage;
+                    PlayerControl playerControl = other.GetComponent<PlayerControl>();
+                    playerControl.health -= damage;
+                    playerControl.animator.SetTrigger("hurt");
                 }
             }
         } else {

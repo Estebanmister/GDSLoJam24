@@ -32,10 +32,12 @@ public class PlayerControl : MonoBehaviour
     public Animator animator;
     public Collider2D ParryUp;
     public Collider2D ParryCenter;
+    public Transform parryPivot;
     void Start()
     {
         playerInput = GetComponent<PlayerInput>();
         rb = GetComponent<Rigidbody2D>();
+        
     }
     void CheckGrounding(){
         RaycastHit2D hit2D = Physics2D.Raycast(transform.position, Vector3.down, playerHeight, layer);
@@ -170,13 +172,17 @@ public class PlayerControl : MonoBehaviour
         if(x_axis < 0){
             animator.SetBool("isRunning", true);
             last_axis_change = -1;
-            // todo switch animations to left
-            transform.localScale = new Vector3(-1,1,1);
+            // switch animations to left
+            animator.SetBool("directionRight", false);
+            parryPivot.transform.localScale = new Vector3(-1,1,1);
+            //transform.localScale = new Vector3(-1,1,1);
         } else if (x_axis > 0){
             animator.SetBool("isRunning", true);
             last_axis_change = 1;
-            // todo switch animations to right
-            transform.localScale = new Vector3(1,1,1);
+            // switch animations to right
+            animator.SetBool("directionRight", true);
+            parryPivot.transform.localScale = new Vector3(1,1,1);
+            //transform.localScale = new Vector3(1,1,1);
         } else {
             animator.SetBool("isRunning", false);
         }
