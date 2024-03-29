@@ -274,7 +274,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 0.6
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -398,6 +398,7 @@ MonoBehaviour:
   maxVelocity: 10
   animator: {fileID: 0}
   homing: 1
+  defScale: {x: 0, y: 0, z: 0}
   distanceToMaintain: 20
 --- !u!1 &9145977746038264806
 GameObject:
