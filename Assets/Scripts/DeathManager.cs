@@ -35,6 +35,7 @@ public class DeathManager : MonoBehaviour
         if(loaded){
             player = GameObject.FindGameObjectWithTag("Player");
             playerControl = player.GetComponent<PlayerControl>();
+            deathScreen = GameObject.FindGameObjectWithTag("deathscreen").GetComponent<Animator>();
             player.transform.position = lastSavePoint;
             playerControl.health = playerControl.maxHealth;
         }
