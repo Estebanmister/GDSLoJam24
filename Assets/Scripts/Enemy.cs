@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
     public Animator animator;
     public bool homing = false;
     public Vector3 defScale;
+    
     public void Start(){
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
@@ -27,12 +28,7 @@ public class Enemy : MonoBehaviour
             player = null;
         }
     }
-    public void Attack(Vector3 direction){
-        GameObject newProjectile = GameObject.Instantiate(projectile, transform.position, Quaternion.identity);
-        Projectile cmp = newProjectile.GetComponent<Projectile>();
-        cmp.velocity = direction;
-        cmp.transform.right = direction;
-    }
+    
     void Update(){
         if(health <= 0){
             Destroy(gameObject);

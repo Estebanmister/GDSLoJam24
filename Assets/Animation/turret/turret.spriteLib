@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: shoot
+    m_Hash: 809827518
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: IMG_0695_0
+      m_Hash: 106912010
+      m_Sprite: {fileID: -7028466364128151701, guid: db600ffa10a67eb449441f227a178e83, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7028466364128151701, guid: db600ffa10a67eb449441f227a178e83, type: 3}
+    - m_Name: IMG_0695_3
+      m_Hash: 525732016
+      m_Sprite: {fileID: -5087119416305103312, guid: db600ffa10a67eb449441f227a178e83, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -5087119416305103312, guid: db600ffa10a67eb449441f227a178e83, type: 3}
+    - m_Name: IMG_0695_4
+      m_Hash: 20094227
+      m_Sprite: {fileID: -7556475198861839537, guid: db600ffa10a67eb449441f227a178e83, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7556475198861839537, guid: db600ffa10a67eb449441f227a178e83, type: 3}
+    - m_Name: IMG_0695_5
+      m_Hash: 909487493
+      m_Sprite: {fileID: 3694714200793658985, guid: db600ffa10a67eb449441f227a178e83, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 3694714200793658985, guid: db600ffa10a67eb449441f227a178e83, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638473169938889598
+  m_Version: 1

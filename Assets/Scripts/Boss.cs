@@ -6,6 +6,12 @@ public class Boss : Enemy
 {
     public float distanceToMaintain = 5;
     float counter = 0;
+    public void Attack(Vector3 atck_direction){
+        GameObject newProjectile = GameObject.Instantiate(projectile, transform.position, Quaternion.identity);
+        Projectile cmp = newProjectile.GetComponent<Projectile>();
+        cmp.velocity = atck_direction;
+        cmp.transform.right = atck_direction;
+    }
     void Update(){
         if(health <= 0){
             Destroy(gameObject);

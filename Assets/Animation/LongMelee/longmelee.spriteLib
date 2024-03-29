@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: walk
+    m_Hash: 227637845
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: nuggrager_5
+      m_Hash: 943296470
+      m_Sprite: {fileID: -8560103718434129700, guid: 667a0217254a03b4abe603395d147663, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -8560103718434129700, guid: 667a0217254a03b4abe603395d147663, type: 3}
+    - m_Name: nuggrager_6
+      m_Hash: 556850796
+      m_Sprite: {fileID: -5866897087575435440, guid: 667a0217254a03b4abe603395d147663, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -5866897087575435440, guid: 667a0217254a03b4abe603395d147663, type: 3}
+    - m_Name: nuggrager_7
+      m_Hash: 372764410
+      m_Sprite: {fileID: 2146863601182421917, guid: 667a0217254a03b4abe603395d147663, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 2146863601182421917, guid: 667a0217254a03b4abe603395d147663, type: 3}
+    - m_Name: nuggrager_8
+      m_Hash: 109638507
+      m_Sprite: {fileID: 5026369322453126784, guid: 667a0217254a03b4abe603395d147663, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 5026369322453126784, guid: 667a0217254a03b4abe603395d147663, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: attack
+    m_Hash: 130035003
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: nuggrager_0
+      m_Hash: 139688793
+      m_Sprite: {fileID: -7278597578840061389, guid: 667a0217254a03b4abe603395d147663, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -7278597578840061389, guid: 667a0217254a03b4abe603395d147663, type: 3}
+    - m_Name: nuggrager_2
+      m_Hash: 643635829
+      m_Sprite: {fileID: -431230022993272669, guid: 667a0217254a03b4abe603395d147663, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -431230022993272669, guid: 667a0217254a03b4abe603395d147663, type: 3}
+    - m_Name: nuggrager_3
+      m_Hash: 291121891
+      m_Sprite: {fileID: 1279033804926038575, guid: 667a0217254a03b4abe603395d147663, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 1279033804926038575, guid: 667a0217254a03b4abe603395d147663, type: 3}
+    - m_Name: nuggrager_4
+      m_Hash: 255770432
+      m_Sprite: {fileID: -3554426410600213278, guid: 667a0217254a03b4abe603395d147663, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -3554426410600213278, guid: 667a0217254a03b4abe603395d147663, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  - m_Name: idle
+    m_Hash: 472167701
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: nuggrager_9
+      m_Hash: 831505405
+      m_Sprite: {fileID: -5576394758341889155, guid: 667a0217254a03b4abe603395d147663, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -5576394758341889155, guid: 667a0217254a03b4abe603395d147663, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
+  - m_Name: fire
+    m_Hash: 417204687
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: nuggragereffect_0
+      m_Hash: 160840546
+      m_Sprite: {fileID: -4602974144799563934, guid: a69859f182a765648840351924f43458, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -4602974144799563934, guid: a69859f182a765648840351924f43458, type: 3}
+    - m_Name: nuggragereffect_1
+      m_Hash: 1049693172
+      m_Sprite: {fileID: -1125973771795135049, guid: a69859f182a765648840351924f43458, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1125973771795135049, guid: a69859f182a765648840351924f43458, type: 3}
+    - m_Name: nuggragereffect_2
+      m_Hash: 664296014
+      m_Sprite: {fileID: -1915367899943880305, guid: a69859f182a765648840351924f43458, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1915367899943880305, guid: a69859f182a765648840351924f43458, type: 3}
+    - m_Name: nuggragereffect_3
+      m_Hash: 278883032
+      m_Sprite: {fileID: -1027293519, guid: a69859f182a765648840351924f43458, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: -1027293519, guid: a69859f182a765648840351924f43458, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638473181515350056
+  m_Version: 1

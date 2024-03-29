@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: 667a0217254a03b4abe603395d147663
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7278597578840061389
+    second: nuggrager_0
+  - first:
+      213: -899216012025096171
+    second: nuggrager_1
+  - first:
+      213: -431230022993272669
+    second: nuggrager_2
+  - first:
+      213: 1279033804926038575
+    second: nuggrager_3
+  - first:
+      213: -3554426410600213278
+    second: nuggrager_4
+  - first:
+      213: -8560103718434129700
+    second: nuggrager_5
+  - first:
+      213: -5866897087575435440
+    second: nuggrager_6
+  - first:
+      213: 2146863601182421917
+    second: nuggrager_7
+  - first:
+      213: 5026369322453126784
+    second: nuggrager_8
+  - first:
+      213: -5576394758341889155
+    second: nuggrager_9
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nuggrager_0
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 4305
+        width: 172
+        height: 550
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a4832d01a3dfa90800000000000000
+      internalID: -7278597578840061389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuggrager_2
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 4351
+        width: 674
+        height: 506
+      alignment: 9
+      pivot: {x: 0.7176019, y: 0.4876241}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0a00f2496f30af0800000000000000
+      internalID: -431230022993272669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuggrager_3
+      rect:
+        serializedVersion: 2
+        x: 2369
+        y: 4334
+        width: 434
+        height: 659
+      alignment: 9
+      pivot: {x: 0.49343464, y: 0.42563602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22355e087a00c110800000000000000
+      internalID: 1279033804926038575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuggrager_4
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 3716
+        width: 953
+        height: 714
+      alignment: 9
+      pivot: {x: 0.77929455, y: 0.385973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e458eff2042caec0800000000000000
+      internalID: -3554426410600213278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuggrager_5
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 2816
+        width: 353
+        height: 686
+      alignment: 9
+      pivot: {x: 0.5443544, y: 0.41327173}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8bb3e7507643980800000000000000
+      internalID: -8560103718434129700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuggrager_6
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 2850
+        width: 353
+        height: 649
+      alignment: 9
+      pivot: {x: 0.5709664, y: 0.38902736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057da49de28949ea0800000000000000
+      internalID: -5866897087575435440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuggrager_7
+      rect:
+        serializedVersion: 2
+        x: 2184
+        y: 2828
+        width: 353
+        height: 680
+      alignment: 9
+      pivot: {x: 0.5532254, y: 0.43092614}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93b1b912113bcd10800000000000000
+      internalID: 2146863601182421917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuggrager_8
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 2832
+        width: 353
+        height: 679
+      alignment: 9
+      pivot: {x: 0.5620961, y: 0.4169893}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e4db6944041c540800000000000000
+      internalID: 5026369322453126784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuggrager_9
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 1930
+        width: 171
+        height: 551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d737ea5238aac92b0800000000000000
+      internalID: -5576394758341889155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b94be869cfe5fcf4f8a7987653f4716e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      nuggrager_0: -7278597578840061389
+      nuggrager_1: -899216012025096171
+      nuggrager_2: -431230022993272669
+      nuggrager_3: 1279033804926038575
+      nuggrager_4: -3554426410600213278
+      nuggrager_5: -8560103718434129700
+      nuggrager_6: -5866897087575435440
+      nuggrager_7: 2146863601182421917
+      nuggrager_8: 5026369322453126784
+      nuggrager_9: -5576394758341889155
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
