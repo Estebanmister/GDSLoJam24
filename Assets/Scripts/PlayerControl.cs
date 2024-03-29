@@ -7,10 +7,14 @@ public class PlayerControl : MonoBehaviour
 {
     PlayerInput playerInput;
     Rigidbody2D rb;
+    public bool flipSide = false;
+    public float flipSideStrengthModifier = 2;
     public float health = 10;
     public float maxHealth = 10;
     public float maxStamina = 10;
     public float stamina = 10;
+    public float staminaRecover = 0.2f;
+    public float healthRecover = 0.1f;
     // Parrying has to happen within 0.2 seconds
     public float parryPeriod = 0.2f;
     public float dashSpeed = 20;
@@ -71,7 +75,11 @@ public class PlayerControl : MonoBehaviour
     void spawnAttack(float strength = 1){
         GameObject newProjectile = GameObject.Instantiate(melee_projectile_prefab, transform.position, Quaternion.identity);
         Projectile cmp = newProjectile.GetComponent<Projectile>();
-        cmp.damage *= strength;
+        if(flipSide && health < maxHealth/2){
+            cmp.damage *= strength * flipSideStrengthModifier;
+        } else {
+            cmp.damage *= strength;
+        }
         cmp.velocity = new Vector3(Mathf.Round(last_axis_change), Mathf.Round(Mathf.Round(playerInput.actions["y_axis"].ReadValue<float>())),0);
     }
     int lastPhase = 0;
@@ -162,7 +170,14 @@ public class PlayerControl : MonoBehaviour
             }
         }
         if(stamina < maxStamina){
-            stamina += Time.fixedDeltaTime;
+            stamina += Time.fixedDeltaTime * staminaRecover;
+            if(flipSide){
+                stamina += Time.fixedDeltaTime * 2;
+            }
+        }
+        
+        if(health < maxHealth){
+            health += Time.fixedDeltaTime * healthRecover;
         }
         if(jumpPressed && jump_initiated && jumpStrength <= 0.15f){
             jumpStrength += Time.fixedDeltaTime;
