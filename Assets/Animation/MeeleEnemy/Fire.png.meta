@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 966018904960d3a42b3ec3462e1e6b9a
+guid: 704ee8ba574656442aadd92383d18952
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3982333918627831917
-    second: Magma-Walk_0
-  - first:
-      213: -7741434219562025134
-    second: Magma-Walk_1
-  - first:
-      213: 4446819217636171411
-    second: Magma-Walk_2
-  - first:
-      213: 3954077052977051526
-    second: Magma-Walk_3
-  - first:
-      213: -7064529853389245963
-    second: Magma-Walk_4
+      213: 1098286324429101383
+    second: Fire_0
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -110,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Magma-Walk_0
+      name: Fire_0
       rect:
         serializedVersion: 2
-        x: 203
-        y: 182
-        width: 359
-        height: 602
+        x: 484
+        y: 303
+        width: 549
+        height: 687
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,92 +112,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 39fd23b7668ebb8c0800000000000000
-      internalID: -3982333918627831917
+      spriteID: 7491445d795ed3f00800000000000000
+      internalID: 1098286324429101383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Magma-Walk_1
+      name: Fire_1
       rect:
         serializedVersion: 2
-        x: 570
-        y: 195
-        width: 362
-        height: 573
+        x: 1182
+        y: 395
+        width: 540
+        height: 565
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 25fb3fad796e09490800000000000000
-      internalID: -7741434219562025134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magma-Walk_2
-      rect:
-        serializedVersion: 2
-        x: 991
-        y: 184
-        width: 367
-        height: 595
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 39e9597a48646bd30800000000000000
-      internalID: 4446819217636171411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magma-Walk_3
-      rect:
-        serializedVersion: 2
-        x: 1395
-        y: 687
-        width: 11
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 687783d4124bfd630800000000000000
-      internalID: 3954077052977051526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Magma-Walk_4
-      rect:
-        serializedVersion: 2
-        x: 1400
-        y: 187
-        width: 348
-        height: 585
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f1779f178fb5fd90800000000000000
-      internalID: -7064529853389245963
+      spriteID: 067cd71b138687d4d89b525ac959c73d
+      internalID: -1586423604
       vertices: []
       indices: 
       edges: []
@@ -217,7 +142,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 47888129bace69b479c5a545fe1bb1fe
+    spriteID: 0d5bd6525c01ae547bb6e6ef1213f0ef
     internalID: 0
     vertices: []
     indices: 
@@ -225,11 +150,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Magma-Walk_0: -3982333918627831917
-      Magma-Walk_1: -7741434219562025134
-      Magma-Walk_2: 4446819217636171411
-      Magma-Walk_3: 3954077052977051526
-      Magma-Walk_4: -7064529853389245963
+      Fire_1: -1586423604
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

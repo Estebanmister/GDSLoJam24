@@ -11,9 +11,11 @@ public class Enemy : MonoBehaviour
     public float maxVelocity = 10;
     public Animator animator;
     public bool homing = false;
+    public Vector3 defScale;
     public void Start(){
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        defScale = transform.localScale;
     }
     public void PlayerDetected(GameObject obj){
         seen = true;

@@ -11,6 +11,9 @@ TextureImporter:
   - first:
       213: -4529547631021383069
     second: Magma-Attack_2
+  - first:
+      213: 9131573770407834290
+    second: Magma-Attack_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -107,7 +110,7 @@ TextureImporter:
       name: Magma-Attack_0
       rect:
         serializedVersion: 2
-        x: 168
+        x: 158
         y: 176
         width: 335
         height: 627
@@ -128,12 +131,12 @@ TextureImporter:
       name: Magma-Attack_1
       rect:
         serializedVersion: 2
-        x: 508
+        x: 524
         y: 180
-        width: 514
-        height: 810
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 484
+        height: 632
+      alignment: 9
+      pivot: {x: 0.49, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -149,10 +152,10 @@ TextureImporter:
       name: Magma-Attack_2
       rect:
         serializedVersion: 2
-        x: 1402
-        y: 190
-        width: 369
-        height: 599
+        x: 1020
+        y: 195
+        width: 411
+        height: 613
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +169,31 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Magma-Attack_3
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 190
+        width: 369
+        height: 599
+      alignment: 9
+      pivot: {x: 0.59485096, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2fe6986fdd9be70800000000000000
+      internalID: 9131573770407834290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c96187f8dc29adb4eb95e3e2afadc727
+    spriteID: aadc7c446ddd5dc4d83a824da33fb926
     internalID: 0
     vertices: []
     indices: 
@@ -180,6 +204,7 @@ TextureImporter:
       Magma-Attack_0: 937432561697433665
       Magma-Attack_1: 4933683462911342137
       Magma-Attack_2: -4529547631021383069
+      Magma-Attack_3: 9131573770407834290
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,7 +1,8 @@
 
+using System.Diagnostics;
 using UnityEngine;
 
-public class RangedEnemy : Enemy
+public class Boss : Enemy
 {
     public float distanceToMaintain = 5;
     float counter = 0;
@@ -27,21 +28,14 @@ public class RangedEnemy : Enemy
                 }
                 counter += Time.deltaTime;
             }
-            animator.SetBool("isWalking", Mathf.Abs(rb.velocityX) > 0.2f);
-            if(Mathf.Abs(rb.velocityX) < maxVelocity){
-                if(Mathf.Abs(distance) < distanceToMaintain){
-                    if(distance <= 0){
-                        rb.AddForce(Vector3.right * acceleration * Time.deltaTime);
-                    } else if(distance > 0){
-                        rb.AddForce(Vector3.left * acceleration * Time.deltaTime);
-                    }
+            //animator.SetBool("isWalking", Mathf.Abs(rb.velocityX) > 0.2f);
+            if(Vector3.Distance(transform.position,player.transform.position) > distanceToMaintain){
+                if(rb.velocity.magnitude < maxVelocity){
+                    rb.AddForce((player.transform.position-transform.position).normalized * acceleration);
                 }
-                if(Mathf.Abs(distance) > distanceToMaintain){
-                    if(distance <= 0){
-                        rb.AddForce(Vector3.left * acceleration * Time.deltaTime);
-                    } else if(distance > 0){
-                        rb.AddForce(Vector3.right * acceleration * Time.deltaTime);
-                    }
+            } else {
+                if(rb.velocity.magnitude < maxVelocity){
+                    rb.AddForce((-(player.transform.position-transform.position).normalized) * acceleration);
                 }
             }
             

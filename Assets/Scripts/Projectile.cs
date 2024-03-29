@@ -20,7 +20,10 @@ public class Projectile : MonoBehaviour
         }
         if(!friendly){
             if(other.tag != "Enemy"){
-                spriteRenderer.enabled = false;
+                if(spriteRenderer != null){
+                    spriteRenderer.enabled = false;
+                }
+                
                 if(other.tag == "ParryZone"){
                     other.GetComponent<ParryZone>().Parry();
                     Destroy(gameObject);
