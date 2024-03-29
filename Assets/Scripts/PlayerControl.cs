@@ -55,7 +55,7 @@ public class PlayerControl : MonoBehaviour
         }
     }
     void Interact(Collider2D col){
-
+        col.GetComponent<DialogueTrigger>().triggerDialogue();
     }
     public void heal(InputAction.CallbackContext context){
         
