@@ -6,46 +6,36 @@ using TMPro;
 
 public class DialogueManagerScript : MonoBehaviour
 {
+    public ProfileManager profile;
+    public DialogueBoxManager Scene;
+
     public TMP_Text nameText;
     public TMP_Text dialogueText;
 
-    public Queue<string> sentences;
+    public char theme;//'d','n','e'
+    public int lines;
+    public string[] names;
+    public string[] sentences;
+    public string[] animations;
+    public DialogueLine[] dialogue;
 
-    // Start is called before the first frame update
-    void Start()
+
+    public void setUp()
     {
-        sentences = new Queue<string>();
-    }
+        dialogue = new DialogueLine[lines];
 
-    public void startDialogue(Dialogue dialogue)
-    {
-        sentences.Clear();
-
-        nameText.text = dialogue.name;
-
-        foreach (string sentence in dialogue.sentences)
+        for (int i = 0; i < lines; i++)
         {
-            sentences.Enqueue(sentence);
+            dialogue[i] = new DialogueLine(names[i],sentences[i],animations[i]);
         }
-        displayNext();
-        
     }
 
-    public void displayNext()
+    public void runDialogue()
     {
-        if(sentences.Count == 0)
+        Scene.setBox(theme);
+        for(int i = 0; i < lines; i++)
         {
-            endDialogue();
-            return;
+            dialogue[i].runLine(profile,nameText,dialogueText);
         }
-
-        string sentence = sentences.Dequeue();
-        dialogueText.text = sentence;
-
-    }
-
-    public void endDialogue()
-    {
-
     }
 }

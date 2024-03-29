@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
-    public Dialogue dialogue;
+    public DialogueManagerScript ManagerSan;
 
-    public void TriggerDialogue()
+    public void triggerDialogue()
     {
-        FindObjectOfType<DialogueManagerScript>().startDialogue(dialogue);
+        ManagerSan.setUp();
+        ManagerSan.runDialogue();
     }
 }

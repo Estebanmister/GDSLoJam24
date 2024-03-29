@@ -15,17 +15,29 @@ public class DialogueBoxManager : MonoBehaviour
     {
         box.sprite = day;
     }
+
     public void setNight()
     {
         box.sprite = night;
     }
+
     public void setDawn()
     {
         box.sprite = dawn;
     }
 
-    private void Start()
+    public void setBox(char color)
     {
-        setNight();
+        if (color == 'd')
+        {
+            setDay();
+        }else if(color == 'n')
+        {
+            setNight();
+        }
+        else
+        {
+            setDawn();
+        }
     }
 }
