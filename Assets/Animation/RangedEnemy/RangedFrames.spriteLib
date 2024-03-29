@@ -132,6 +132,17 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: 1675005706, guid: 98fbdbeaaaadc17438385301317ea629, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 6
+  - m_Name: dead
+    m_Hash: 757418276
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: DeadBone_0
+      m_Hash: 377122979
+      m_Sprite: {fileID: 8693208898121439827, guid: 803b8d74d9caa8948a41ef578f11af54, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 8693208898121439827, guid: 803b8d74d9caa8948a41ef578f11af54, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 1
   m_PrimaryLibraryGUID: 
-  m_ModificationHash: 638471558537569870
+  m_ModificationHash: 638472634644023135
   m_Version: 1

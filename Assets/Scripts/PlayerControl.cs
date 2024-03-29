@@ -8,6 +8,7 @@ public class PlayerControl : MonoBehaviour
     PlayerInput playerInput;
     Rigidbody2D rb;
     public float health = 10;
+    public float maxHealth = 10;
     public float maxStamina = 10;
     public float stamina = 10;
     // Parrying has to happen within 0.2 seconds
@@ -55,7 +56,13 @@ public class PlayerControl : MonoBehaviour
         }
     }
     void Interact(Collider2D col){
-        col.GetComponent<DialogueTrigger>().triggerDialogue();
+        DialogueTrigger dialogueTrigger = col.GetComponent<DialogueTrigger>();
+        SavePoint savePoint = col.GetComponent<SavePoint>();
+        if(dialogueTrigger == null){
+            savePoint.activate();
+        } else {
+            dialogueTrigger.triggerDialogue();
+        }
     }
     public void heal(InputAction.CallbackContext context){
         
@@ -117,6 +124,11 @@ public class PlayerControl : MonoBehaviour
     float dashCounter = 0;
     void FixedUpdate()
     {
+        if(health <= 0){
+            // dead
+            animator.SetBool("dead", true);
+            return;
+        }
         CheckGrounding();
         float x_axis = playerInput.actions["x_axis"].ReadValue<float>();
         float y_axis = playerInput.actions["y_axis"].ReadValue<float>();

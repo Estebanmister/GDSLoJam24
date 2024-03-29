@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: d08e39fe6e367654fa70b0caba97ceb4
+guid: 8e3b23b3bc87c3745a6384ea5867668c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3782302418011684980
-    second: Parry_0
+      213: -7437625044491818790
+    second: saved_0
   - first:
-      213: -7581343843245608386
-    second: Parry_1
+      213: 1902557464135207770
+    second: saved_1
   - first:
-      213: -4698449387721077818
-    second: Parry_2
+      213: 7413890518152690368
+    second: saved_2
   - first:
-      213: 3113858548951103542
-    second: Parry_3
+      213: 7624299260321127143
+    second: saved_3
   - first:
-      213: -5395038850066330896
-    second: Parry_4
+      213: -2233629889932433944
+    second: saved_4
   - first:
-      213: -1758634357126176280
-    second: Parry_5
+      213: -3753030943949004020
+    second: saved_5
   - first:
-      213: 2872056819028577981
-    second: Parry_6
+      213: -2518181746919003333
+    second: saved_6
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Parry_0
+      name: saved_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 103
-        width: 110
-        height: 146
+        x: 80
+        y: 113
+        width: 102
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8fff458dff828bc0800000000000000
-      internalID: -3782302418011684980
+      spriteID: ad82482ad6f38c890800000000000000
+      internalID: -7437625044491818790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Parry_1
+      name: saved_1
       rect:
         serializedVersion: 2
-        x: 170
-        y: 39
-        width: 124
-        height: 213
+        x: 198
+        y: 45
+        width: 125
+        height: 215
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e32304731f7a9c690800000000000000
-      internalID: -7581343843245608386
+      spriteID: a5b0c86feed376a10800000000000000
+      internalID: 1902557464135207770
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Parry_2
+      name: saved_2
       rect:
         serializedVersion: 2
-        x: 311
-        y: 58
-        width: 129
-        height: 190
+        x: 332
+        y: 113
+        width: 118
+        height: 142
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cbcbb1ec21cbceb0800000000000000
-      internalID: -4698449387721077818
+      spriteID: 0cab022552e63e660800000000000000
+      internalID: 7413890518152690368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Parry_3
+      name: saved_3
       rect:
         serializedVersion: 2
-        x: 450
-        y: 58
-        width: 129
-        height: 190
+        x: 459
+        y: 120
+        width: 107
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6383b033ad5a63b20800000000000000
-      internalID: 3113858548951103542
+      spriteID: 7ead6b038c3fec960800000000000000
+      internalID: 7624299260321127143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Parry_4
+      name: saved_4
       rect:
         serializedVersion: 2
-        x: 583
-        y: 96
-        width: 108
-        height: 161
+        x: 579
+        y: 115
+        width: 111
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,19 +214,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0fa4d5000c8f025b0800000000000000
-      internalID: -5395038850066330896
+      spriteID: 8e5e1ea037d8001e0800000000000000
+      internalID: -2233629889932433944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Parry_5
+      name: saved_5
       rect:
         serializedVersion: 2
-        x: 771
-        y: 149
-        width: 57
+        x: 712
+        y: 156
+        width: 59
         height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -235,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e162bdae531897e0800000000000000
-      internalID: -1758634357126176280
+      spriteID: c03eedaad3e8aebc0800000000000000
+      internalID: -3753030943949004020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Parry_6
+      name: saved_6
       rect:
         serializedVersion: 2
-        x: 768
-        y: 103
-        width: 32
-        height: 33
+        x: 710
+        y: 110
+        width: 33
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,8 +256,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dbecfe8c5789bd720800000000000000
-      internalID: 2872056819028577981
+      spriteID: b3b25070b0f9d0dd0800000000000000
+      internalID: -2518181746919003333
       vertices: []
       indices: 
       edges: []
@@ -273,13 +273,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Parry_0: -3782302418011684980
-      Parry_1: -7581343843245608386
-      Parry_2: -4698449387721077818
-      Parry_3: 3113858548951103542
-      Parry_4: -5395038850066330896
-      Parry_5: -1758634357126176280
-      Parry_6: 2872056819028577981
+      saved_0: -7437625044491818790
+      saved_1: 1902557464135207770
+      saved_2: 7413890518152690368
+      saved_3: 7624299260321127143
+      saved_4: -2233629889932433944
+      saved_5: -3753030943949004020
+      saved_6: -2518181746919003333
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -7,7 +7,9 @@ public class RangedEnemy : Enemy
     float counter = 0;
     void Update(){
         if(health <= 0){
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            animator.SetBool("dead", true);
+            return;
         }
         animator.SetBool("isAttacking", false);
         if(seen){

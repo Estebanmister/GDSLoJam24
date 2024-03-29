@@ -8,6 +8,8 @@ TagManager:
   - PlayerProjectile
   - EnemyProjectile
   - ParryZone
+  - deathmanager
+  - deathscreen
   layers:
   - Default
   - TransparentFX
