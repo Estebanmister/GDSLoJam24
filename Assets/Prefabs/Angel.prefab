@@ -114,7 +114,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.18, y: 6.9, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8687400746539909401}
@@ -161,7 +161,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: cf76ef188c1a2bd4da3eae730b6af4ec, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -233,8 +233,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.1331377, y: 0.11015177}
-  m_Size: {x: 18.825073, y: 37.650146}
+  m_Offset: {x: -0.24, y: -0.7}
+  m_Size: {x: 4.72, y: 6.6}
   m_Direction: 0
 --- !u!114 &9121609454567203081
 MonoBehaviour:
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Library: []
-  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 0e0969e2e397e964c8b2a3cc41aadab0, type: 3}
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: af00f5eed59221945a2e57b64cf25a29, type: 3}
 --- !u!114 &4579735139190208171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 10
-  projectile: {fileID: 7795548309045101039, guid: bc02cd7eb073cb6429abedc0a3e8e8b4, type: 3}
+  projectile: {fileID: 7795548309045101039, guid: 287619a36c4a8fe46939e528779f7f02, type: 3}
   player: {fileID: 0}
   seen: 0
   rb: {fileID: 0}
@@ -311,3 +311,4 @@ MonoBehaviour:
   homing: 1
   defScale: {x: 0, y: 0, z: 0}
   distanceToMaintain: 5
+  ignoreDistance: 1

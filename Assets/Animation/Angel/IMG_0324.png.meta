@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 3a4141f6ae55f8d4b8373ca9f8407938
+guid: 2d63c4bf80b62804892347446d4c6674
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6561992576917375230
-    second: noheart_0
+      213: 705458981931978831
+    second: IMG_0324_0
+  - first:
+      213: 3462806447690679992
+    second: IMG_0324_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,22 +101,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: noheart_0
+      name: IMG_0324_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 128
-        height: 128
+        x: 352
+        y: 236
+        width: 1193
+        height: 703
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 207f61aa48e1fe4a0800000000000000
-      internalID: -6561992576917375230
+      spriteID: 8b609801e1c5e0030800000000000000
+      internalID: 3462806447690679992
       vertices: []
       indices: 
       edges: []
@@ -121,7 +124,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 33e67e01a3c2f0b47a8935c59a48059f
     internalID: 0
     vertices: []
     indices: 
@@ -129,7 +132,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      noheart_0: -6561992576917375230
+      IMG_0324_1: 3462806447690679992
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

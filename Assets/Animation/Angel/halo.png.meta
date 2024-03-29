@@ -1,0 +1,1737 @@
+fileFormatVersion: 2
+guid: 17e39f5eb8fc39b4ca7f45d4febd8d25
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6493497552717572729
+    second: halo_0
+  - first:
+      213: -3736805898914166300
+    second: halo_1
+  - first:
+      213: 6107762612839455842
+    second: halo_2
+  - first:
+      213: 9143041552301796862
+    second: halo_3
+  - first:
+      213: 4782140371877117093
+    second: halo_4
+  - first:
+      213: -1918636157729512846
+    second: halo_5
+  - first:
+      213: 176482867798238330
+    second: halo_6
+  - first:
+      213: -6203649402722989313
+    second: halo_7
+  - first:
+      213: 8851667855193147644
+    second: halo_8
+  - first:
+      213: 5378722295824264950
+    second: halo_9
+  - first:
+      213: -3057055482404768475
+    second: halo_10
+  - first:
+      213: -3572035093911591086
+    second: halo_11
+  - first:
+      213: -253434886322135796
+    second: halo_12
+  - first:
+      213: 7599177205430729833
+    second: halo_13
+  - first:
+      213: 8315646912591160173
+    second: halo_14
+  - first:
+      213: 1182503267009462470
+    second: halo_15
+  - first:
+      213: -4026467744381467966
+    second: halo_16
+  - first:
+      213: 2490237567746266283
+    second: halo_17
+  - first:
+      213: -2027729315016726363
+    second: halo_18
+  - first:
+      213: -3449749100053349111
+    second: halo_19
+  - first:
+      213: 7500286305196791181
+    second: halo_20
+  - first:
+      213: 8887756209475017060
+    second: halo_21
+  - first:
+      213: -3881782977131002461
+    second: halo_22
+  - first:
+      213: 3163783362646097966
+    second: halo_23
+  - first:
+      213: 4672133346998692229
+    second: halo_24
+  - first:
+      213: 5003523466130918845
+    second: halo_25
+  - first:
+      213: -708842090050943601
+    second: halo_26
+  - first:
+      213: 8973948713159219043
+    second: halo_27
+  - first:
+      213: -3621553731431939275
+    second: halo_28
+  - first:
+      213: 9121488586997145651
+    second: halo_29
+  - first:
+      213: 3424414863703296851
+    second: halo_30
+  - first:
+      213: -8310504396507894139
+    second: halo_31
+  - first:
+      213: -4626860289707277772
+    second: halo_32
+  - first:
+      213: -1074473863845419326
+    second: halo_33
+  - first:
+      213: 4633050711931204544
+    second: halo_34
+  - first:
+      213: -7895958741254308223
+    second: halo_35
+  - first:
+      213: -6893295141227546638
+    second: halo_36
+  - first:
+      213: -584090106593452317
+    second: halo_37
+  - first:
+      213: 4994299598382862650
+    second: halo_38
+  - first:
+      213: 775906778671919705
+    second: halo_39
+  - first:
+      213: 2805812898249182515
+    second: halo_40
+  - first:
+      213: -5212520134565940687
+    second: halo_41
+  - first:
+      213: 1544616181207466197
+    second: halo_42
+  - first:
+      213: 401447789371458414
+    second: halo_43
+  - first:
+      213: 1396493529351103576
+    second: halo_44
+  - first:
+      213: 7057701153165000650
+    second: halo_45
+  - first:
+      213: -3849547967991306228
+    second: halo_46
+  - first:
+      213: -4558662105515838448
+    second: halo_47
+  - first:
+      213: -520170471903704376
+    second: halo_48
+  - first:
+      213: -5826359800447201852
+    second: halo_49
+  - first:
+      213: 291936045480276415
+    second: halo_50
+  - first:
+      213: 6244527049099811719
+    second: halo_51
+  - first:
+      213: 3335422899753307894
+    second: halo_52
+  - first:
+      213: -887420126221821737
+    second: halo_53
+  - first:
+      213: -5151898805492609011
+    second: halo_54
+  - first:
+      213: -2606847719069200447
+    second: halo_55
+  - first:
+      213: -2645243176936745929
+    second: halo_56
+  - first:
+      213: -6824057564425030260
+    second: halo_57
+  - first:
+      213: 8769379733853910967
+    second: halo_58
+  - first:
+      213: -7520044933283882003
+    second: halo_59
+  - first:
+      213: -3679635627116006711
+    second: halo_60
+  - first:
+      213: -6634238490501655834
+    second: halo_61
+  - first:
+      213: -3105874815999495178
+    second: halo_62
+  - first:
+      213: -1097596539767758873
+    second: halo_63
+  - first:
+      213: 2189873635584843374
+    second: halo_64
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: halo_0
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1052
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a6993ce998d1a50800000000000000
+      internalID: 6493497552717572729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_1
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 858
+        width: 86
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e903a855d2342cc0800000000000000
+      internalID: -3736805898914166300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_2
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 876
+        width: 51
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c15be6cb123c450800000000000000
+      internalID: 6107762612839455842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_3
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 885
+        width: 52
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efda59399db92ee70800000000000000
+      internalID: 9143041552301796862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_4
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 892
+        width: 25
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac3ac3d4539d5240800000000000000
+      internalID: 4782140371877117093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_5
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 892
+        width: 28
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272ef457492af55e0800000000000000
+      internalID: -1918636157729512846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_6
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 882
+        width: 71
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a746e04bb3ef27200800000000000000
+      internalID: 176482867798238330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_7
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 871
+        width: 110
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffac1af8cb538e9a0800000000000000
+      internalID: -6203649402722989313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_8
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 789
+        width: 170
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf80882240177da70800000000000000
+      internalID: 8851667855193147644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_9
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 808
+        width: 110
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe241c2e6f05aa40800000000000000
+      internalID: 5378722295824264950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_10
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 831
+        width: 117
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5257a985c382395d0800000000000000
+      internalID: -3057055482404768475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_11
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 846
+        width: 79
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257ab2ee1059d6ec0800000000000000
+      internalID: -3572035093911591086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_12
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 863
+        width: 104
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dd31b405e9b7cf0800000000000000
+      internalID: -253434886322135796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_13
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 848
+        width: 131
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96cb1faf763b57960800000000000000
+      internalID: 7599177205430729833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_14
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 828
+        width: 152
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63e19e0fcc176370800000000000000
+      internalID: 8315646912591160173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_15
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 808
+        width: 172
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c086d7c478196010800000000000000
+      internalID: 1182503267009462470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_16
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 951
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2039c6bec1f18c0800000000000000
+      internalID: -4026467744381467966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 851
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba459dfbfd91f8220800000000000000
+      internalID: 2490237567746266283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_18
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 763
+        width: 194
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a828cd6eee0cd3e0800000000000000
+      internalID: -2027729315016726363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_19
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 736
+        width: 170
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90db81798770020d0800000000000000
+      internalID: -3449749100053349111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_20
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 791
+        width: 169
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d855bf608ae561860800000000000000
+      internalID: 7500286305196791181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_21
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 766
+        width: 191
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469d704ee27a75b70800000000000000
+      internalID: 8887756209475017060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 704
+        width: 191
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5c2f8e2f2212ac0800000000000000
+      internalID: -3881782977131002461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_23
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 669
+        width: 173
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20cfc4b43408eb20800000000000000
+      internalID: 3163783362646097966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_24
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 734
+        width: 192
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5892d1b6680c6d040800000000000000
+      internalID: 4672133346998692229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_25
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 705
+        width: 216
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd80182516107540800000000000000
+      internalID: 5003523466130918845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_26
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 767
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f850bacefdfa926f0800000000000000
+      internalID: -708842090050943601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_27
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 640
+        width: 196
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367dd600fced98c70800000000000000
+      internalID: 8973948713159219043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_28
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 683
+        width: 209
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533420fa118adbdc0800000000000000
+      internalID: -3621553731431939275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_29
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 651
+        width: 225
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330aebaca89069e70800000000000000
+      internalID: 9121488586997145651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_30
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 616
+        width: 227
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b4a9adc27f58f20800000000000000
+      internalID: 3424414863703296851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_31
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 553
+        width: 227
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e23d548482bac80800000000000000
+      internalID: -8310504396507894139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_32
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 594
+        width: 199
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43203a6a4171acfb0800000000000000
+      internalID: -4626860289707277772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_33
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 531
+        width: 224
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c66d01b6b3b611f0800000000000000
+      internalID: -1074473863845419326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_34
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 583
+        width: 203
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3b7075317eb4040800000000000000
+      internalID: 4633050711931204544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_35
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 574
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e75620c5beb6290800000000000000
+      internalID: -7895958741254308223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_36
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 470
+        width: 180
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7b43f57981650a0800000000000000
+      internalID: -6893295141227546638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_37
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 495
+        width: 198
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee5da78425e4e7f0800000000000000
+      internalID: -584090106593452317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_38
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 521
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a319c7716015f4540800000000000000
+      internalID: 4994299598382862650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_39
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 406
+        width: 197
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952be81ba1394ca00800000000000000
+      internalID: 775906778671919705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_40
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 395
+        width: 205
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d0a5217ff30f620800000000000000
+      internalID: 2805812898249182515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_41
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 333
+        width: 203
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13230a20e8869a7b0800000000000000
+      internalID: -5212520134565940687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_42
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 381
+        width: 185
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0013bab349f6510800000000000000
+      internalID: 1544616181207466197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_43
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 313
+        width: 181
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e630a5133aa329500800000000000000
+      internalID: 401447789371458414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_44
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 277
+        width: 173
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854aa1c4777516310800000000000000
+      internalID: 1396493529351103576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_45
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 203
+        width: 131
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acfb3453ecdf1f160800000000000000
+      internalID: 7057701153165000650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_46
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 251
+        width: 121
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c082d06d488a39ac0800000000000000
+      internalID: -3849547967991306228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_47
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 325
+        width: 163
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014b1b5c7f06cb0c0800000000000000
+      internalID: -4558662105515838448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_48
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 356
+        width: 201
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca488736bbf7c8f0800000000000000
+      internalID: -520170471903704376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_49
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 398
+        width: 175
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd8ab081ac942fa0800000000000000
+      internalID: -5826359800447201852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_50
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 355
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1fbff594a2d0400800000000000000
+      internalID: 291936045480276415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_51
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 204
+        width: 160
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b99e7244409a650800000000000000
+      internalID: 6244527049099811719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_52
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 200
+        width: 132
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fecf7b947dc94e20800000000000000
+      internalID: 3335422899753307894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_53
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 133
+        width: 56
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d81402d8104fa3f0800000000000000
+      internalID: -887420126221821737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_54
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 161
+        width: 101
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d009ad31557c088b0800000000000000
+      internalID: -5151898805492609011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_55
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 196
+        width: 91
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfc759afcd92dbd0800000000000000
+      internalID: -2606847719069200447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_56
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 157
+        width: 125
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734d82e78553a4bd0800000000000000
+      internalID: -2645243176936745929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_57
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 159
+        width: 98
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85f0a1fcc31c41a0800000000000000
+      internalID: -6824057564425030260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_58
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 115
+        width: 66
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b73fd0e76813b970800000000000000
+      internalID: 8769379733853910967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_59
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 144
+        width: 57
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb53a0e9fe63a790800000000000000
+      internalID: -7520044933283882003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_60
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 120
+        width: 35
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2f0e684ee4fecc0800000000000000
+      internalID: -3679635627116006711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_61
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 151
+        width: 47
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2dc6a1e337ee3a0800000000000000
+      internalID: -6634238490501655834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_62
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 182
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3b48b7f47b5e4d0800000000000000
+      internalID: -3105874815999495178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_63
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 165
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efd17c23cd84c0f0800000000000000
+      internalID: -1097596539767758873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: halo_64
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 127
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e1708187ef36e10800000000000000
+      internalID: 2189873635584843374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      halo_0: 6493497552717572729
+      halo_1: -3736805898914166300
+      halo_10: -3057055482404768475
+      halo_11: -3572035093911591086
+      halo_12: -253434886322135796
+      halo_13: 7599177205430729833
+      halo_14: 8315646912591160173
+      halo_15: 1182503267009462470
+      halo_16: -4026467744381467966
+      halo_17: 2490237567746266283
+      halo_18: -2027729315016726363
+      halo_19: -3449749100053349111
+      halo_2: 6107762612839455842
+      halo_20: 7500286305196791181
+      halo_21: 8887756209475017060
+      halo_22: -3881782977131002461
+      halo_23: 3163783362646097966
+      halo_24: 4672133346998692229
+      halo_25: 5003523466130918845
+      halo_26: -708842090050943601
+      halo_27: 8973948713159219043
+      halo_28: -3621553731431939275
+      halo_29: 9121488586997145651
+      halo_3: 9143041552301796862
+      halo_30: 3424414863703296851
+      halo_31: -8310504396507894139
+      halo_32: -4626860289707277772
+      halo_33: -1074473863845419326
+      halo_34: 4633050711931204544
+      halo_35: -7895958741254308223
+      halo_36: -6893295141227546638
+      halo_37: -584090106593452317
+      halo_38: 4994299598382862650
+      halo_39: 775906778671919705
+      halo_4: 4782140371877117093
+      halo_40: 2805812898249182515
+      halo_41: -5212520134565940687
+      halo_42: 1544616181207466197
+      halo_43: 401447789371458414
+      halo_44: 1396493529351103576
+      halo_45: 7057701153165000650
+      halo_46: -3849547967991306228
+      halo_47: -4558662105515838448
+      halo_48: -520170471903704376
+      halo_49: -5826359800447201852
+      halo_5: -1918636157729512846
+      halo_50: 291936045480276415
+      halo_51: 6244527049099811719
+      halo_52: 3335422899753307894
+      halo_53: -887420126221821737
+      halo_54: -5151898805492609011
+      halo_55: -2606847719069200447
+      halo_56: -2645243176936745929
+      halo_57: -6824057564425030260
+      halo_58: 8769379733853910967
+      halo_59: -7520044933283882003
+      halo_6: 176482867798238330
+      halo_60: -3679635627116006711
+      halo_61: -6634238490501655834
+      halo_62: -3105874815999495178
+      halo_63: -1097596539767758873
+      halo_64: 2189873635584843374
+      halo_7: -6203649402722989313
+      halo_8: 8851667855193147644
+      halo_9: 5378722295824264950
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

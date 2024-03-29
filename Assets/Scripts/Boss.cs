@@ -5,8 +5,11 @@ using UnityEngine;
 public class Boss : Enemy
 {
     public float distanceToMaintain = 5;
+    public bool ignoreDistance = true;
     float counter = 0;
-    public void Attack(Vector3 atck_direction){
+    Vector3 atck_direction;
+    public void Attack(){
+        atck_direction = (player.transform.position - transform.position).normalized;
         GameObject newProjectile = GameObject.Instantiate(projectile, transform.position, Quaternion.identity);
         Projectile cmp = newProjectile.GetComponent<Projectile>();
         cmp.velocity = atck_direction;
@@ -25,11 +28,12 @@ public class Boss : Enemy
             if(distance < 0){
                 transform.localScale = new Vector3(defScale.x,defScale.y,defScale.z);
             }
-            if(Mathf.Abs(distance) - distanceToMaintain < 2){
+            if(Mathf.Abs(distance) - distanceToMaintain < 2 || ignoreDistance){
                 if(counter > 1){
                     animator.SetBool("isAttacking", true);
                     rb.velocityX = Mathf.Lerp(rb.velocityX, 0, Time.deltaTime);
-                    Attack((player.transform.position - transform.position).normalized);
+                    //Attack((player.transform.position - transform.position).normalized);
+                    atck_direction = (player.transform.position - transform.position).normalized;
                     counter = 0;
                 }
                 counter += Time.deltaTime;

@@ -777,9 +777,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e14be7bce651fb843b1d5d3a096e1115, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fullHeart: {fileID: -205270267638800340, guid: 3b102ad3558b74947b0e32434cb87e95, type: 3}
-  halfHeart: {fileID: -4937487055332590994, guid: f76617101414c3048a7e1188f36557af, type: 3}
-  emptyHeart: {fileID: -6561992576917375230, guid: 3a4141f6ae55f8d4b8373ca9f8407938, type: 3}
+  fullHeart: {fileID: 21300000, guid: 3b102ad3558b74947b0e32434cb87e95, type: 3}
+  halfHeart: {fileID: 21300000, guid: f76617101414c3048a7e1188f36557af, type: 3}
+  emptyHeart: {fileID: 21300000, guid: 3a4141f6ae55f8d4b8373ca9f8407938, type: 3}
   staminaBar: {fileID: 2022562952}
   staminaBackground: {fileID: 37748831}
   hearts:
@@ -4161,7 +4161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7429364482703982724, guid: 18d61819ff311ec49aadc3c2517f5b56, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7866446260021651944, guid: 18d61819ff311ec49aadc3c2517f5b56, type: 3}
       propertyPath: m_labelHash
@@ -4433,7 +4433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4731848540602583174, guid: 885a03c6e4d807142b01e0870ea8b0c0, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6028795348410488806, guid: 885a03c6e4d807142b01e0870ea8b0c0, type: 3}
       propertyPath: m_Constraints
@@ -4460,6 +4460,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 845071522241044398, guid: 0d12106be1f6f184ea4e8ec8b55010e6, type: 3}
+      propertyPath: m_Size.x
+      value: 19.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 845071522241044398, guid: 0d12106be1f6f184ea4e8ec8b55010e6, type: 3}
+      propertyPath: m_Size.y
+      value: 10.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 845071522241044398, guid: 0d12106be1f6f184ea4e8ec8b55010e6, type: 3}
+      propertyPath: m_DrawMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 845071522241044398, guid: 0d12106be1f6f184ea4e8ec8b55010e6, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2257307443487629172, guid: 0d12106be1f6f184ea4e8ec8b55010e6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.18
@@ -4500,13 +4516,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4579735139190208171, guid: 0d12106be1f6f184ea4e8ec8b55010e6, type: 3}
+      propertyPath: m_SpriteHash
+      value: 70095319
+      objectReference: {fileID: 0}
     - target: {fileID: 5334396072272823909, guid: 0d12106be1f6f184ea4e8ec8b55010e6, type: 3}
       propertyPath: m_Name
       value: Angel
       objectReference: {fileID: 0}
     - target: {fileID: 5334396072272823909, guid: 0d12106be1f6f184ea4e8ec8b55010e6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
