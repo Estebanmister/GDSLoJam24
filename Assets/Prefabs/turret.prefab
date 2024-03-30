@@ -234,8 +234,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.45203468, y: 0.7703636}
-  m_Size: {x: 2.3944898, y: 5.686324}
+  m_Offset: {x: -0.45203468, y: 1.1416779}
+  m_Size: {x: 2.3944898, y: 4.9436955}
   m_Direction: 0
 --- !u!114 &8359183419021526918
 MonoBehaviour:
@@ -312,6 +312,7 @@ MonoBehaviour:
   homing: 1
   defScale: {x: 0, y: 0, z: 0}
   distanceToMaintain: 20
+  shootSpeed: 1
 --- !u!1 &8069620169009760065
 GameObject:
   m_ObjectHideFlags: 0

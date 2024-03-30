@@ -72,7 +72,7 @@ public class PlayerControl : MonoBehaviour
         
     }
     float attackCooldownCounter = 0;
-    void spawnAttack(float strength = 1){
+    public void spawnAttack(float strength = 1){
         GameObject newProjectile = GameObject.Instantiate(melee_projectile_prefab, transform.position, Quaternion.identity);
         Projectile cmp = newProjectile.GetComponent<Projectile>();
         if(flipSide && health < maxHealth/2){
@@ -80,6 +80,11 @@ public class PlayerControl : MonoBehaviour
         } else {
             cmp.damage *= strength;
         }
+        if(lastPhase >= 2){
+            cmp.damage *= 2;
+            lastPhase = -1;
+        }
+        lastPhase += 1;
         cmp.velocity = new Vector3(Mathf.Round(last_axis_change), Mathf.Round(Mathf.Round(playerInput.actions["y_axis"].ReadValue<float>())),0);
     }
     int lastPhase = 0;
@@ -89,7 +94,7 @@ public class PlayerControl : MonoBehaviour
                 animator.SetBool("isAttacking", true);
                 attackCooldownCounter = basic_attack_cooldown;
                 lastPhase = 0;
-                spawnAttack();
+                //spawnAttack();
             }
         }
         if(context.canceled){
@@ -144,21 +149,7 @@ public class PlayerControl : MonoBehaviour
         bool jumpPressed = playerInput.actions["jump"].IsPressed();
         bool parry = playerInput.actions["parry"].IsPressed();
         animator.SetBool("isDashing", isDashing);
-        // honestly i could use playerInput.actions["attack"].ReadValue<float>() instead of animator.GetBool("isAttacking")
-        // but like, im already keeping track of it so idk
-        if(animator.GetBool("isAttacking") && animator.GetInteger("attackPhase") != lastPhase){
-            // if the attack button is being held
-            // and we moved onto another phase of the attack
-            // then spawn a new attack projectile
-            lastPhase = animator.GetInteger("attackPhase");
-            if(lastPhase == 2){
-                // last phase of the attack
-                spawnAttack(strength: meeleCriticalModifier);
-            } else {
-                spawnAttack();
-            }
-            
-        }
+        
 
         if(isDashing){
             dashCounter += Time.deltaTime;

@@ -14,6 +14,24 @@ public class Boss : Enemy
         Projectile cmp = newProjectile.GetComponent<Projectile>();
         cmp.velocity = atck_direction;
         cmp.transform.right = atck_direction;
+
+        atck_direction = Vector3.Cross(atck_direction, Vector3.forward);
+        newProjectile = GameObject.Instantiate(projectile, transform.position, Quaternion.identity);
+        cmp = newProjectile.GetComponent<Projectile>();
+        cmp.velocity = atck_direction;
+        cmp.transform.right = atck_direction;
+
+        atck_direction = Vector3.Cross((player.transform.position - transform.position).normalized, Vector3.back);
+        newProjectile = GameObject.Instantiate(projectile, transform.position, Quaternion.identity);
+        cmp = newProjectile.GetComponent<Projectile>();
+        cmp.velocity = atck_direction;
+        cmp.transform.right = atck_direction;
+
+        atck_direction = -(player.transform.position - transform.position).normalized;
+        newProjectile = GameObject.Instantiate(projectile, transform.position, Quaternion.identity);
+        cmp = newProjectile.GetComponent<Projectile>();
+        cmp.velocity = atck_direction;
+        cmp.transform.right = atck_direction;
     }
     void Update(){
         if(health <= 0){
