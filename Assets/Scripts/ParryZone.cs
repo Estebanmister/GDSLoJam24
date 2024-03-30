@@ -16,7 +16,7 @@ public class ParryZone : MonoBehaviour
         sound = transform.parent.parent.GetComponent<PlayerControl>().ParrySound;
     }
     public void Parry(){
-        animator.SetTrigger(parryType);
+        //animator.SetTrigger(parryType);
         collider2D.enabled = false;
         parryParticles.Play();
         screenShake.shakeFor = 0.2f;

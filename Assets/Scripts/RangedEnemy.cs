@@ -7,14 +7,19 @@ public class RangedEnemy : Enemy
     public float shootSpeed = 1;
     float counter = 0;
     Vector3 atck_direction;
+    AudioSource attck;
+    SpriteRenderer spriteRenderer;
     void Awake(){
         counter = shootSpeed;
+        attck = GetComponent<AudioSource>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
     public void Attack(){
         GameObject newProjectile = GameObject.Instantiate(projectile, transform.position, Quaternion.identity);
         Projectile cmp = newProjectile.GetComponent<Projectile>();
         cmp.velocity = atck_direction;
         cmp.transform.right = atck_direction;
+        attck.Play();
     }
     void Update(){
         if(health <= 0){
@@ -33,12 +38,14 @@ public class RangedEnemy : Enemy
         animator.SetBool("isAttacking", false);
         if(seen){
             float distance = player.transform.position.x - transform.position.x;
-            //Debug.Log(distance);
+            Debug.Log(distance);
             if(distance > 0){
-                transform.localScale = new Vector3(-defScale.x,defScale.y,defScale.z);
-            }
-            if(distance < 0){
-                transform.localScale = new Vector3(defScale.x,defScale.y,defScale.z);
+                //spriteRenderer.flipX = tr
+                animator.SetBool("directionRight", true);
+                //transform.localScale = new Vector3(-defScale.x,defScale.y,defScale.z);
+            } else if(distance < 0){
+                //transform.localScale = new Vector3(defScale.x,defScale.y,defScale.z);
+                animator.SetBool("directionRight", false);
             }
             if(Mathf.Abs(distance) - distanceToMaintain < 2){
                 if(counter > shootSpeed){
