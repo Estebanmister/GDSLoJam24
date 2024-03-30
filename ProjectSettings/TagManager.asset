@@ -10,6 +10,7 @@ TagManager:
   - ParryZone
   - deathmanager
   - deathscreen
+  - dialogshower
   layers:
   - Default
   - TransparentFX
