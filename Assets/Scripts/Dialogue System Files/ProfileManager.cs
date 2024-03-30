@@ -101,6 +101,6 @@ public class ProfileManager : MonoBehaviour
 
     public void setVillager()
     {
-
+        profile.sprite = villager[1];
     }
 }

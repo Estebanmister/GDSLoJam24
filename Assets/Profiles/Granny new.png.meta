@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Granny new_0: 3903192947496536199
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

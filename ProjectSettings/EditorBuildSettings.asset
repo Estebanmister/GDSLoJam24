@@ -5,11 +5,29 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/main2.unity
     guid: 53255589547a34248a1952d2d75461d4
+  - enabled: 1
+    path: Assets/Scenes/Chapter 3 Good Ending.unity
+    guid: d5514cc7b03184ed898858ebde178acf
+  - enabled: 1
+    path: Assets/Scenes/Chapter 1 B Night.unity
+    guid: 755a7b623e2db46818bf2fe7bcfe934e
+  - enabled: 1
+    path: Assets/Scenes/Chapter 1 Day.unity
+    guid: 5a2190720c8ac4ea79ea2cb6106a8be1
+  - enabled: 1
+    path: Assets/Scenes/Chapter 2 Day.unity
+    guid: fd193e8b997b44d9bab8f252e442d7ae
+  - enabled: 1
+    path: Assets/Scenes/Chapter 2 Night.unity
+    guid: b3beccee036f04a3e84221770fce76a5
+  - enabled: 1
+    path: Assets/Scenes/Chapter 3 Bad Ending.unity
+    guid: beaf9333e7c584565aeed2cf3d4c91d0
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
