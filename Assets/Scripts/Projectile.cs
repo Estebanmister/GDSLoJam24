@@ -9,6 +9,7 @@ public class Projectile : MonoBehaviour
     public float lifetime_distance = 0.5f;
     float elapsed_distance = 0;
     public bool friendly = true;
+    public bool melee = false;
     public ParticleSystem collisionParticles;
     SpriteRenderer spriteRenderer;
     void Start(){
@@ -26,8 +27,17 @@ public class Projectile : MonoBehaviour
                 
                 if(other.tag == "ParryZone"){
                     other.GetComponent<ParryZone>().Parry();
-                    Destroy(gameObject);
-                    speed = 0;
+                    //
+                    if(!melee){
+                        friendly = true;
+                        speed = -speed;
+                        spriteRenderer.enabled = true;
+                        transform.right = -velocity;
+                    } else {
+                        Destroy(gameObject);
+                        speed = 0;
+                    }
+                    
                 }
                 if(other.tag == "Player"){
                     collisionParticles.Play();

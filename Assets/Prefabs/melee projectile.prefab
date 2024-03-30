@@ -88,6 +88,7 @@ MonoBehaviour:
   speed: 20
   lifetime_distance: 1.5
   friendly: 1
+  melee: 1
   collisionParticles: {fileID: 60531033146995640}
 --- !u!199 &8454567442105079694
 ParticleSystemRenderer:
