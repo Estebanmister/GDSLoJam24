@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bad end forest red_0: -4312470507027073253
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
