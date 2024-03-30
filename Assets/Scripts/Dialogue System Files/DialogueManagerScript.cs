@@ -6,6 +6,7 @@ using TMPro;
 
 public class DialogueManagerScript : MonoBehaviour
 {
+    public GameObject visualNovel;
     public ProfileManager profile;
     public DialogueBoxManager Scene;
 
@@ -32,10 +33,12 @@ public class DialogueManagerScript : MonoBehaviour
 
     public void runDialogue()
     {
+        visualNovel.SetActive(true);
         Scene.setBox(theme);
         for(int i = 0; i < lines; i++)
         {
             dialogue[i].runLine(profile,nameText,dialogueText);
         }
+        visualNovel.SetActive(false);
     }
 }
