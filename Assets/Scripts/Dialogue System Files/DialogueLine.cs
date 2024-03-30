@@ -35,19 +35,6 @@ public class DialogueLine : MonoBehaviour
         {
             profile.setVillager();
         }
-
-        //updates text one by one
-        StopAllCoroutines();
-        StartCoroutine(TypeSentence(nameText));
-    }
-
-    IEnumerator TypeSentence(TMP_Text dialogueText)
-    {
-        dialogueText.text = "";
-        foreach (char letter in spokenLine.ToCharArray())
-        {
-            dialogueText.text += letter;
-            yield return null;
-        }
+        dialogueText.text = spokenLine;
     }
 }

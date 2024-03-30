@@ -39,6 +39,6 @@ public class DialogueManagerScript : MonoBehaviour
         {
             dialogue[i].runLine(profile,nameText,dialogueText);
         }
-        visualNovel.SetActive(false);
+        //visualNovel.SetActive(false);
     }
 }
