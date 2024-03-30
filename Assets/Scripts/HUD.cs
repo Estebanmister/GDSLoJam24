@@ -6,9 +6,8 @@ using UnityEngine.UI;
 public class HUD : MonoBehaviour
 {
     PlayerControl playerControl;
-    public Sprite fullHeart;
-    public Sprite halfHeart;
-    public Sprite emptyHeart;
+    public Image healthBar;
+    public RectTransform healthbarBackground;
     public Image staminaBar;
     public Image staminaBackground;
     public Image[] hearts;
@@ -22,19 +21,13 @@ public class HUD : MonoBehaviour
     }
     void Update()
     {
-        foreach(Image heart in hearts){
-            heart.sprite = emptyHeart;
-        }
-        float ii = 0;
-        for(float i = 0; i < playerControl.health; i+=1f){
-            if(hearts[Mathf.FloorToInt(ii)].sprite == halfHeart){
-                hearts[Mathf.FloorToInt(ii)].sprite = fullHeart;
-            } else {
-                hearts[Mathf.FloorToInt(ii)].sprite = halfHeart;
-            }
-            ii += 0.5f;
-        }
-        float size = map(playerControl.stamina,0,playerControl.maxStamina,0,staminaBackground.rectTransform.sizeDelta.x);
+        
+        float size = map(playerControl.health,0,playerControl.maxHealth,0,healthbarBackground.sizeDelta.x);
+        healthBar.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, size);
+        healthBar.rectTransform.ForceUpdateRectTransforms();
+
+
+        size = map(playerControl.stamina,0,playerControl.maxStamina,0,staminaBackground.rectTransform.sizeDelta.x);
         staminaBar.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, size);
         staminaBar.rectTransform.ForceUpdateRectTransforms();
         //for(float i = playerControl.health; i < playerControl.maxHealth; i += 1){
