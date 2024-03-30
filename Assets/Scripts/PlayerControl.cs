@@ -38,6 +38,11 @@ public class PlayerControl : MonoBehaviour
     public Collider2D ParryUp;
     public Collider2D ParryCenter;
     public Transform parryPivot;
+
+    public AudioSource ParrySound;
+    public AudioSource AttackSound;
+    public AudioSource DashSound;
+    public AudioSource DamageSound;
     void Start()
     {
         playerInput = GetComponent<PlayerInput>();

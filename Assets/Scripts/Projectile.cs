@@ -27,6 +27,7 @@ public class Projectile : MonoBehaviour
                 if(other.tag == "ParryZone"){
                     other.GetComponent<ParryZone>().Parry();
                     Destroy(gameObject);
+                    speed = 0;
                 }
                 if(other.tag == "Player"){
                     collisionParticles.Play();

@@ -33,7 +33,7 @@ public class RangedEnemy : Enemy
         animator.SetBool("isAttacking", false);
         if(seen){
             float distance = player.transform.position.x - transform.position.x;
-            Debug.Log(distance);
+            //Debug.Log(distance);
             if(distance > 0){
                 transform.localScale = new Vector3(-defScale.x,defScale.y,defScale.z);
             }
