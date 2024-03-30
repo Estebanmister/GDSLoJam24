@@ -17,6 +17,7 @@ public class PlayerControl : MonoBehaviour
     public float healthRecover = 0.1f;
     // Parrying has to happen within 0.2 seconds
     public float parryPeriod = 0.2f;
+    //public float parryCooldown = 0.1f;
     public float dashSpeed = 20;
     // how long to lock controls during a dash
     public float dashPeriod = 0.3f;
@@ -40,9 +41,11 @@ public class PlayerControl : MonoBehaviour
     public Transform parryPivot;
 
     public AudioSource ParrySound;
-    public AudioSource AttackSound;
+    public AudioSource[] AttackSounds;
     public AudioSource DashSound;
     public AudioSource DamageSound;
+    public AudioSource jumpingSound;
+    public AudioSource interactSound;
     void Start()
     {
         playerInput = GetComponent<PlayerInput>();
@@ -61,12 +64,14 @@ public class PlayerControl : MonoBehaviour
                 stamina -= 1;
                 rb.velocityX += dashSpeed*last_axis_change;
                 isDashing = true;
+                DashSound.Play();
             }
         }
     }
     void Interact(Collider2D col){
         DialogueTrigger dialogueTrigger = col.GetComponent<DialogueTrigger>();
         SavePoint savePoint = col.GetComponent<SavePoint>();
+        interactSound.Play();
         if(dialogueTrigger == null){
             savePoint.activate();
         } else {
@@ -85,10 +90,12 @@ public class PlayerControl : MonoBehaviour
         } else {
             cmp.damage *= strength;
         }
+        AttackSounds[lastPhase].Play();
         if(lastPhase >= 2){
             cmp.damage *= 2;
             lastPhase = -1;
         }
+       
         lastPhase += 1;
         cmp.velocity = new Vector3(Mathf.Round(last_axis_change), Mathf.Round(Mathf.Round(playerInput.actions["y_axis"].ReadValue<float>())),0);
     }
@@ -124,6 +131,7 @@ public class PlayerControl : MonoBehaviour
             if(isGrounded){
                 //animator.SetBool("jump", true);
                 jump_initiated = true;
+                jumpingSound.Play();
                 //rb.velocityY += jumping_initial_vel/2;
                 //jumping_cooldown = 0;
             }
@@ -212,16 +220,19 @@ public class PlayerControl : MonoBehaviour
         if(parryCounter > parryPeriod){
             ParryCenter.enabled = false;
             ParryUp.enabled = false;
+            animator.SetBool("parry", false);
         }
         if(parry && parryCounter == 0 && !animator.GetBool("isAttacking")){
             parryCounter += Time.fixedDeltaTime;
             ParryCenter.enabled = true;
+            animator.SetBool("parry", true);
         }else if(parry && parryCounter < parryPeriod){
             parryCounter += Time.fixedDeltaTime;
         } else if (!parry){
             parryCounter = 0;
             ParryCenter.enabled = false;
             ParryUp.enabled = false;
+            animator.SetBool("parry", false);
         }
         //animator.SetFloat("animationSpeed", map(Mathf.Abs(rb.velocityX), 0.2f, max_speed, 0.2f, 2));
         

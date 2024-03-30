@@ -35,6 +35,7 @@ public class Projectile : MonoBehaviour
                         transform.right = -velocity;
                     } else {
                         Destroy(gameObject);
+                        friendly = true;
                         speed = 0;
                     }
                     
@@ -43,6 +44,7 @@ public class Projectile : MonoBehaviour
                     collisionParticles.Play();
                     PlayerControl playerControl = other.GetComponent<PlayerControl>();
                     playerControl.health -= damage;
+                    playerControl.DamageSound.Play();
                     playerControl.animator.SetTrigger("hurt");
                 }
             }
