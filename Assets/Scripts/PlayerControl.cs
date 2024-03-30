@@ -71,11 +71,14 @@ public class PlayerControl : MonoBehaviour
     void Interact(Collider2D col){
         DialogueTrigger dialogueTrigger = col.GetComponent<DialogueTrigger>();
         SavePoint savePoint = col.GetComponent<SavePoint>();
+        nextlevel nextlevel2 = col.GetComponent<nextlevel>();
         interactSound.Play();
-        if(dialogueTrigger == null){
+        if(savePoint != null){
             savePoint.activate();
-        } else {
+        } else if (dialogueTrigger != null){
             dialogueTrigger.triggerDialogue();
+        } else {
+            nextlevel2.nextLevel();
         }
     }
     public void heal(InputAction.CallbackContext context){
