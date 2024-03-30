@@ -215,11 +215,7 @@ public class PlayerControl : MonoBehaviour
         }
         if(parry && parryCounter == 0 && !animator.GetBool("isAttacking")){
             parryCounter += Time.fixedDeltaTime;
-            if(y_axis < 0.5f && y_axis > -0.5f){
-                ParryCenter.enabled = true;
-            } else if (y_axis > 0.5f){
-                ParryUp.enabled = true;
-            }
+            ParryCenter.enabled = true;
         }else if(parry && parryCounter < parryPeriod){
             parryCounter += Time.fixedDeltaTime;
         } else if (!parry){
