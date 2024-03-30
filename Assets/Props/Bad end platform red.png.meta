@@ -128,7 +128,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bad end platform red_0: -3179956403270571789
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
