@@ -332,6 +332,62 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: d1cff149-98f3-4a7d-804b-12e672d4dfc7
     m_ActionName: 'movement/dash[/Keyboard/c]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1472726684926394007}
+        m_TargetAssemblyTypeName: PlayerControl, Assembly-CSharp
+        m_MethodName: pauseGame
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 7737e824-5a2e-42c4-a564-f8a3b11ba8fe
+    m_ActionName: 'movement/pause[/Keyboard/escape,/XInputControllerWindows/start]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 732cb553-f225-40cf-b9c9-bb7f94157b2c
+    m_ActionName: 'ui/Navigate[/XInputControllerWindows/leftStick/up,/XInputControllerWindows/rightStick/up,/XInputControllerWindows/leftStick/down,/XInputControllerWindows/rightStick/down,/XInputControllerWindows/leftStick/left,/XInputControllerWindows/rightStick/left,/XInputControllerWindows/leftStick/right,/XInputControllerWindows/rightStick/right,/XInputControllerWindows/dpad,/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 06a32093-d574-4d91-ab7b-301249d2e54d
+    m_ActionName: 'ui/Submit[/Keyboard/enter,/XInputControllerWindows/buttonNorth]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 59a912e6-c731-4a53-a769-bae9899efd38
+    m_ActionName: 'ui/Cancel[/Keyboard/escape,/XInputControllerWindows/buttonEast]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7d6e30d7-c85f-483b-a7c1-8d306b3a693a
+    m_ActionName: 'ui/Point[/Mouse/position]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fcdc2165-4d05-4823-9988-38df0f96949a
+    m_ActionName: 'ui/Click[/Mouse/leftButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 6923f88b-1136-4c8a-91dd-c30755de370f
+    m_ActionName: 'ui/ScrollWheel[/Mouse/scroll]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: fc4eb677-9b7e-43ce-a346-1e441a3a6032
+    m_ActionName: 'ui/MiddleClick[/Mouse/middleButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8965ab3d-680a-4e00-b52f-b3dcd4c591ac
+    m_ActionName: 'ui/RightClick[/Mouse/rightButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 683fb67d-f8b4-49c6-ae0e-965582413de9
+    m_ActionName: ui/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e6be99cb-ee60-4467-821b-c37314e265ba
+    m_ActionName: ui/TrackedDeviceOrientation
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: movement

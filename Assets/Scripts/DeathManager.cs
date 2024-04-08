@@ -29,6 +29,7 @@ public class DeathManager : MonoBehaviour
         }
     }
     public void NextLevel(){
+        Time.timeScale = 1;
         DestroyImmediate(gameObject);
     }
     void OnSceneLoaded(Scene scene, LoadSceneMode mode){
@@ -41,6 +42,7 @@ public class DeathManager : MonoBehaviour
         }
     }
     public void Respawn(){
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     void Update(){

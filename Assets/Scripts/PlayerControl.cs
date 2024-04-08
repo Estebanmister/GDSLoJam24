@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 public class PlayerControl : MonoBehaviour
 {
     PlayerInput playerInput;
@@ -46,10 +48,12 @@ public class PlayerControl : MonoBehaviour
     public AudioSource DamageSound;
     public AudioSource jumpingSound;
     public AudioSource interactSound;
+    GameObject pauseMenu;
     void Start()
     {
         playerInput = GetComponent<PlayerInput>();
         rb = GetComponent<Rigidbody2D>();
+        pauseMenu = GameObject.FindGameObjectWithTag("pause").transform.GetChild(0).gameObject;
         
     }
     void CheckGrounding(){
@@ -143,6 +147,21 @@ public class PlayerControl : MonoBehaviour
     float map(float val, float oldmin, float oldmax, float newmin, float newmax){
         return (val - oldmin) * (newmax - newmin) / (oldmax - oldmin) + newmin;
 
+    }
+    bool paused = false;
+    public void pauseGame(InputAction.CallbackContext context){
+        if(context.started){
+            if(!paused){
+                Time.timeScale = 0;
+                pauseMenu.SetActive(true);
+                paused = true;
+                EventSystem.current.SetSelectedGameObject(pauseMenu.GetComponentInChildren<Button>().gameObject);
+            } else {
+                Time.timeScale = 1;
+                pauseMenu.SetActive(false);
+                paused = false;
+            }
+        }
     }
     float parryCounter = 0;
     float jumpStrength = 0;

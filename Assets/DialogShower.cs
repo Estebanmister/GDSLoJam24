@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class DialogShower : MonoBehaviour
@@ -32,6 +33,7 @@ public class DialogShower : MonoBehaviour
     }
     public void BeginChoice(){
         choicechild.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(choicechild.GetComponentInChildren<Button>().gameObject);
     }
     public void Next(){
         if(i >= dialogObj.textLines.Length){
