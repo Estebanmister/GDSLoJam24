@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5810108c9e76b3d43aa9a4e927b275ad, type: 3}
+  m_Name: Chapter 2Night
+  m_EditorClassIdentifier: 
+  textLines:
+  - My child, I'm proud of you, your progress will not be wasted.
+  - I cannot wait... I will await your victories.
+  - ... I understand.
+  portraits:
+  - {fileID: 7914696620197474181, guid: 4e4fd84196e0e084c885feb4dfb18269, type: 3}
+  - {fileID: -7183921854272762369, guid: cdd36e8ec1846ad48a06fcae341a86a3, type: 3}
+  - {fileID: -326605381915249892, guid: e3fbfdf66d7911d4fa7ea1cbc8560a75, type: 3}
+  names:
+  - Angel
+  - Angel
+  - Axel

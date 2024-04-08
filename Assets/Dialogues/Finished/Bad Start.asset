@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5810108c9e76b3d43aa9a4e927b275ad, type: 3}
+  m_Name: Bad Start
+  m_EditorClassIdentifier: 
+  textLines:
+  - ... Today is the last day... I wonder if everyone is resting today...
+  - I will not rest... I must go out today!
+  portraits:
+  - {fileID: -2075649948220260151, guid: 89792231b78642b4eb1846fe8b6169ee, type: 3}
+  - {fileID: -2075649948220260151, guid: 89792231b78642b4eb1846fe8b6169ee, type: 3}
+  names:
+  - Axel
+  - Axel

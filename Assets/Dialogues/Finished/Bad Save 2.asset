@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5810108c9e76b3d43aa9a4e927b275ad, type: 3}
+  m_Name: Bad Save 2
+  m_EditorClassIdentifier: 
+  textLines:
+  - I feel different...
+  - Radix Malorum Est Cupiditas.
+  - '? ... huh what was that ...'
+  portraits:
+  - {fileID: 7019979379263820431, guid: 49c49d6e5a9059b45bacaee0644eb50c, type: 3}
+  - {fileID: 7019979379263820431, guid: 49c49d6e5a9059b45bacaee0644eb50c, type: 3}
+  - {fileID: 3302440034210379009, guid: c518959822ce0ab40ab1253a15e3b2b1, type: 3}
+  names:
+  - Axel
+  - Inner Demon
+  - Axel

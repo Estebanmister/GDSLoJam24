@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5810108c9e76b3d43aa9a4e927b275ad, type: 3}
+  m_Name: Bad End
+  m_EditorClassIdentifier: 
+  textLines:
+  - Bow before your new god.
+  - As a new era dawns, we chant aloud.
+  - Only one will know the truth, unbowed.
+  - Blinded by the flipside, we rise.
+  - (inaduible whispers...)
+  portraits:
+  - {fileID: -6964918055427569245, guid: e851c379fed6a1b4fa20f4449b8360f7, type: 3}
+  - {fileID: -6964918055427569245, guid: e851c379fed6a1b4fa20f4449b8360f7, type: 3}
+  - {fileID: -6964918055427569245, guid: e851c379fed6a1b4fa20f4449b8360f7, type: 3}
+  - {fileID: -6964918055427569245, guid: e851c379fed6a1b4fa20f4449b8360f7, type: 3}
+  - {fileID: 7019979379263820431, guid: 49c49d6e5a9059b45bacaee0644eb50c, type: 3}
+  names:
+  - Angel
+  - Angel
+  - Angel
+  - Angel
+  - Axel

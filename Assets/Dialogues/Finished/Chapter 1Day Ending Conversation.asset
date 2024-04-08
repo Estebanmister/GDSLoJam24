@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5810108c9e76b3d43aa9a4e927b275ad, type: 3}
-  m_Name: Chapter 1D end of level angel
+  m_Name: Chapter 1Day Ending Conversation
   m_EditorClassIdentifier: 
   textLines:
   - My child, you are troubled yes?

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5810108c9e76b3d43aa9a4e927b275ad, type: 3}
+  m_Name: Good Ending
+  m_EditorClassIdentifier: 
+  textLines:
+  - '... '
+  - ... you ...
+  - ...
+  - I hate those who disobey my orders.
+  - Face judgement before your god.
+  - ... The evil is rooted within greed. You are no god, you are a demon.
+  portraits:
+  - {fileID: -7183921854272762369, guid: cdd36e8ec1846ad48a06fcae341a86a3, type: 3}
+  - {fileID: -7183921854272762369, guid: cdd36e8ec1846ad48a06fcae341a86a3, type: 3}
+  - {fileID: -7183921854272762369, guid: cdd36e8ec1846ad48a06fcae341a86a3, type: 3}
+  - {fileID: -4576372957081364330, guid: 011fe585194901f4899fe58e6e11ccc8, type: 3}
+  - {fileID: 3018247720039519009, guid: e97214f63fc4aa94f9c0da2c35fec3a0, type: 3}
+  - {fileID: -5787902785953492277, guid: 6f5ca9c2b9d75ae4ea9ed1ff5a462ea0, type: 3}
+  names:
+  - Angel
+  - Angel
+  - Angel
+  - Angel
+  - Angel
+  - Axel
