@@ -390,7 +390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a533fa48c3a785840aa9c698951313df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 3
   projectile: {fileID: 7795548309045101039, guid: bc02cd7eb073cb6429abedc0a3e8e8b4, type: 3}
   player: {fileID: 0}
   seen: 0
@@ -402,6 +402,7 @@ MonoBehaviour:
   defScale: {x: 0, y: 0, z: 0}
   distanceToMaintain: 20
   shootSpeed: 1
+  flee: 0
 --- !u!82 &1186659246489925275
 AudioSource:
   m_ObjectHideFlags: 0

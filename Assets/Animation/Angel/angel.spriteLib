@@ -49,6 +49,32 @@ MonoBehaviour:
       m_SpriteOverride: {fileID: 21300000, guid: 17e39f5eb8fc39b4ca7f45d4febd8d25, type: 3}
     m_FromMain: 0
     m_EntryOverrideCount: 6
+  - m_Name: eye
+    m_Hash: 846759857
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: IMG_0341
+      m_Hash: 583016573
+      m_Sprite: {fileID: 21300000, guid: d7f877983b9cf004abd3688adaf72665, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: d7f877983b9cf004abd3688adaf72665, type: 3}
+    - m_Name: IMG_0342
+      m_Hash: 1003057607
+      m_Sprite: {fileID: 21300000, guid: 506380b9a3e6d32469d5d04657a98362, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 506380b9a3e6d32469d5d04657a98362, type: 3}
+    - m_Name: IMG_0344
+      m_Hash: 313185522
+      m_Sprite: {fileID: 21300000, guid: 2ec5b8944c1cffb44aab76f0001d95aa, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 2ec5b8944c1cffb44aab76f0001d95aa, type: 3}
+    - m_Name: IMG_0345
+      m_Hash: 632153188
+      m_Sprite: {fileID: 21300000, guid: 87d4c9015542ac1458f16a0f84a951ba, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 87d4c9015542ac1458f16a0f84a951ba, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 4
   m_PrimaryLibraryGUID: 
-  m_ModificationHash: 638473379524565441
+  m_ModificationHash: 638481879344565610
   m_Version: 1

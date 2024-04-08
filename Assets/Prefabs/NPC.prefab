@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1762787486157107565}
   - component: {fileID: 1519626025541721916}
   - component: {fileID: 1040040156883124538}
-  - component: {fileID: 306823450453905990}
+  - component: {fileID: 2720580156875978702}
   m_Layer: 9
   m_Name: NPC
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -1.17, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5628, y: 0.5628, z: 0.5628}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: -1313609455477723372, guid: 4a2229acce64070498d72378c9d388bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -120,10 +120,10 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
+  m_Offset: {x: 0.035003662, y: -0.10498953}
+  m_Size: {x: 3.0297852, y: 5.7096252}
   m_Direction: 0
---- !u!114 &306823450453905990
+--- !u!114 &2720580156875978702
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -132,7 +132,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2247729674670826547}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f07b01fb2d944d0186ba1d954b29714, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f69d3b43835cd040875bfc1cb988599, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ManagerSan: {fileID: 0}
+  dialogObj: {fileID: 11400000, guid: 059051bfcf376459899ec9e1a2b264d2, type: 2}
+  isFinal: 0

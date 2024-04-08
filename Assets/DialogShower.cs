@@ -13,13 +13,36 @@ public class DialogShower : MonoBehaviour
     public bool startconvo = false;
     public GameObject child;
     public DialogObj dialogObj;
-    int i = 0;
+    public GameObject choicechild;
 
+    public TMP_Text choiceTXT;
+    bool choice = false;
+    public bool shouldDoChoice = false;
+    
+    int i = 0;
+    public void Choose(bool yesno){
+        nextlevel nxtlvl = GetComponent<nextlevel>();
+        if(yesno){
+            nxtlvl.nextBadLevel();
+        } else {
+            nxtlvl.nextGoodLevel();
+        }
+        choicechild.SetActive(false);
+        Time.timeScale = 1;
+    }
+    public void BeginChoice(){
+        choicechild.SetActive(true);
+    }
     public void Next(){
         if(i >= dialogObj.textLines.Length){
             child.SetActive(false);
             i = 0;
-            Time.timeScale = 1;
+            
+            if(shouldDoChoice){
+                BeginChoice();
+            } else {
+                Time.timeScale = 1;
+            }
             return;
         }
         Time.timeScale = 0;

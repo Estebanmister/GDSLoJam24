@@ -300,7 +300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 742c0b7fdec09e340ac0bfe98d42320f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 20
   projectile: {fileID: 7795548309045101039, guid: 287619a36c4a8fe46939e528779f7f02, type: 3}
   player: {fileID: 0}
   seen: 0

@@ -9,4 +9,7 @@ public class staert : MonoBehaviour
     public void startgame(){
         SceneManager.LoadScene(1);
     }
+    public void quit(){
+        Application.Quit();
+    }
 }

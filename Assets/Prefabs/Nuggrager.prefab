@@ -157,7 +157,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: -1
-  m_Sprite: {fileID: -1586423604, guid: 704ee8ba574656442aadd92383d18952, type: 3}
+  m_Sprite: {fileID: -1027293519, guid: a69859f182a765648840351924f43458, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Library: []
-  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 4add0a4445c714f41b3519411e7bd275, type: 3}
+  m_SpriteLibraryAsset: {fileID: 7108339969198208228, guid: 8a118cba3e265794c94ed2caed1234c1, type: 3}
 --- !u!114 &7866446260021651944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_CategoryHash: 2.8915533e-34
   m_labelHash: 2.297939e-18
   m_SpriteKey: 0
-  m_SpriteHash: 462938672
+  m_SpriteHash: 706974178
 --- !u!114 &4465729223920607438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -434,7 +434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_CategoryHash: 5.449709e-22
-  m_labelHash: 8.4265055e-34
+  m_labelHash: 0.000000004184129
   m_SpriteKey: 0
   m_SpriteHash: 567290025
 --- !u!95 &5655406200681503166
@@ -483,6 +483,7 @@ MonoBehaviour:
   defScale: {x: 0, y: 0, z: 0}
   distanceToMaintain: 5
   shootSpeed: 3
+  flee: 0
 --- !u!82 &7110080057525559689
 AudioSource:
   m_ObjectHideFlags: 0

@@ -14,7 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textLines:
   - When was the last time I took a break... maybe
+  - maybe I should...
   portraits:
   - {fileID: -2075649948220260151, guid: 89792231b78642b4eb1846fe8b6169ee, type: 3}
+  - {fileID: -2075649948220260151, guid: 89792231b78642b4eb1846fe8b6169ee, type: 3}
   names:
+  - Axel
   - Axel
