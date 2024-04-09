@@ -8,7 +8,9 @@ public class Boss : Enemy
     public bool ignoreDistance = true;
     float counter = 0;
     Vector3 atck_direction;
+    public AudioSource attack;
     public void Attack(){
+        attack.Play();
         atck_direction = (player.transform.position - transform.position).normalized;
         GameObject newProjectile = GameObject.Instantiate(projectile, transform.position, Quaternion.identity);
         Projectile cmp = newProjectile.GetComponent<Projectile>();

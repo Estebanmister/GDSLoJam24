@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateRate: 0.1
-  radius: 5
+  radius: 8
   speed: 0.001
 --- !u!1 &2889455103054864118
 GameObject:
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateRate: 0.1
-  radius: 5
+  radius: 8
   speed: 0.001
 --- !u!1 &4805810670111130707
 GameObject:
@@ -492,7 +492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateRate: 0.1
-  radius: 5
+  radius: 8
   speed: 0.001
 --- !u!1 &8665238250111842574
 GameObject:
@@ -645,5 +645,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateRate: 0.1
-  radius: 5
+  radius: 8
   speed: 0.001

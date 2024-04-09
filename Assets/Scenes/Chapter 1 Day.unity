@@ -2234,7 +2234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
+  m_SendPointerHoverToParent: 0
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
   m_XRTrackingOrigin: {fileID: 0}
@@ -2533,7 +2533,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: (use gamepad to select, Y button to confirm)
+  m_text: (use gamepad to select, Y button or ENTER to confirm)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f0d3b675942d07e46b580bce97afd95f, type: 2}
   m_sharedMaterial: {fileID: 7250729318101962464, guid: f0d3b675942d07e46b580bce97afd95f, type: 2}

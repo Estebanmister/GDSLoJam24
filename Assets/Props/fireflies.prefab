@@ -151,6 +151,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateRate: 0.1
+  radius: 7
+  speed: 0.001
 --- !u!1 &2103074284537428984
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,6 +339,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateRate: 0.1
+  radius: 7
+  speed: 0.001
 --- !u!1 &5617506105827575356
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,6 +492,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateRate: 0.1
+  radius: 7
+  speed: 0.001
 --- !u!1 &7216723689676515917
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,3 +645,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   updateRate: 0.1
+  radius: 7
+  speed: 0.001

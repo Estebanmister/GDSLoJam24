@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class RespawnButton : MonoBehaviour
@@ -10,5 +11,9 @@ public class RespawnButton : MonoBehaviour
     {
         deathManager = GameObject.FindGameObjectWithTag("deathmanager").GetComponent<DeathManager>();
         GetComponent<Button>().onClick.AddListener(deathManager.Respawn);
+        
+    }
+    void OnEnable(){
+        EventSystem.current.SetSelectedGameObject(gameObject);
     }
 }

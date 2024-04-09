@@ -185,8 +185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d39b653362dbc4f83c03ea820cc3a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  updateRate: 0.1
-  radius: 5
+  updateRate: 0.05
+  radius: 10
   speed: 0.001
 --- !u!1 &4259944317220859542
 GameObject:
@@ -338,8 +338,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d39b653362dbc4f83c03ea820cc3a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  updateRate: 0.1
-  radius: 5
+  updateRate: 0.05
+  radius: 10
   speed: 0.001
 --- !u!1 &4495241762254165789
 GameObject:
@@ -491,8 +491,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d39b653362dbc4f83c03ea820cc3a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  updateRate: 0.1
-  radius: 5
+  updateRate: 0.05
+  radius: 10
   speed: 0.001
 --- !u!1 &4526765582390662631
 GameObject:
@@ -644,6 +644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55d39b653362dbc4f83c03ea820cc3a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  updateRate: 0.1
-  radius: 5
+  updateRate: 0.05
+  radius: 10
   speed: 0.001
