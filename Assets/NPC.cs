@@ -21,7 +21,7 @@ public class NPC : MonoBehaviour
     public void interact(){
         if(sign && dialogObj == null){
             // go to the next level (bad and good should be the same if this is being triggered, its a linear section)
-            dialogObj.GetComponent<nextlevel>().nextGoodLevel();
+            GetComponent<nextlevel>().nextGoodLevel();
             return;
         }
         dialogShower.dialogObj = dialogObj;
@@ -36,7 +36,7 @@ public class NPC : MonoBehaviour
     void Update(){
         if(triggered && !dialogShower.child.activeSelf && sign){
             //dialog has ended, i call this good level but really is just any level
-            dialogObj.GetComponent<nextlevel>().nextGoodLevel();
+            dialogShower.GetComponent<nextlevel>().nextGoodLevel();
         }
         if(triggered && !dialogShower.child.activeSelf && finalBossfight){
             //oh shit

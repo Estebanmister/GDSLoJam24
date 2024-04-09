@@ -9,6 +9,7 @@ public class Boss : Enemy
     float counter = 0;
     Vector3 atck_direction;
     public AudioSource attack;
+    public GameObject ending;
     public void Attack(){
         attack.Play();
         atck_direction = (player.transform.position - transform.position).normalized;
@@ -37,6 +38,7 @@ public class Boss : Enemy
     }
     void Update(){
         if(health <= 0){
+            ending.SetActive(true);
             Destroy(gameObject);
         }
         animator.SetBool("isAttacking", false);
